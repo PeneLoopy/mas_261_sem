@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>MAS 261</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-b654365ec9f6baf3fdeb64dbed93b847.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark-b654365ec9f6baf3fdeb64dbed93b847.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-b654365ec9f6baf3fdeb64dbed93b847.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-dashboard/quarto-dashboard.js"></script>
+<script src="site_libs/quarto-dashboard/stickythead.js"></script>
+
+
+
+<script src="site_libs/quarto-dashboard/web-components.js" type="module"></script>
+<script src="site_libs/quarto-dashboard/components.js"></script>
+
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="quarto-dashboard nav-fixed dashboard-fill fullcontent quarto-light">
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">MAS 261</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">This website provides access to MAS 261 lecture slides, notes, and R code files, regardless of access to Blackboard.</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+<header id="quarto-dashboard-header">
+<nav class="navbar navbar-expand-md slim" data-bs-theme="dark">
+  <div class="navbar-container container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-controls="dashboard-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>    
+
+
+    <div class="navbar-brand-container">
+
+
+      <div class="navbar-title">
+        
+        
+        
+      </div>
+    </div>
+<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-syllabus-and-course-links" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#syllabus-and-course-links" data-scrolling="false" href="#syllabus-and-course-links" aria-controls="syllabus-and-course-links" aria-selected="true"><span class="nav-link-text">Syllabus and Course Links</span></a></li><li class="nav-item" role="presentation"><a id="tab-lectures-1-10" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#lectures-1-10" data-scrolling="false" href="#lectures-1-10" aria-controls="lectures-1-10" aria-selected="false"><span class="nav-link-text">Lectures 1-10</span></a></li><li class="nav-item" role="presentation"><a id="tab-lectures-13-20" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#lectures-13-20" data-scrolling="false" href="#lectures-13-20" aria-controls="lectures-13-20" aria-selected="false"><span class="nav-link-text">Lectures 13-20</span></a></li><li class="nav-item" role="presentation"><a id="tab-lectures-21-28" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#lectures-21-28" data-scrolling="false" href="#lectures-21-28" aria-controls="lectures-21-28" aria-selected="false"><span class="nav-link-text">Lectures 21-28</span></a></li><li class="nav-item" role="presentation"><a id="tab-homework-assignments" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#homework-assignments" data-scrolling="false" href="#homework-assignments" aria-controls="homework-assignments" aria-selected="false"><span class="nav-link-text">Homework Assignments</span></a></li><li class="nav-item" role="presentation"><a id="tab-practice-questions" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#practice-questions" data-scrolling="false" href="#practice-questions" aria-controls="practice-questions" aria-selected="false"><span class="nav-link-text">Practice Questions</span></a></li><li class="nav-item" role="presentation"><a id="tab-installing-r-and-rstudio" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#installing-r-and-rstudio" data-scrolling="false" href="#installing-r-and-rstudio" aria-controls="installing-r-and-rstudio" aria-selected="false"><span class="nav-link-text">Installing R and Rstudio</span></a></li></ul></div></div>
+</nav>
+</header></header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+<!-- main -->
+
+<div class="bslib-grid-item html-fill-item tab-content bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div id="syllabus-and-course-links" class="dashboard-page tab-pane show active html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-syllabus-and-course-links">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 30fr) minmax(3em, 70fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<strong>Professor Pooler (pspooler@syr.edu) - Office: WSOM Room 518</strong>
+<ul>
+<li>In-Person Hours: Tue. Thu. 3:40 PM - 4:40 PM</li>
+<li>Zoom Hours: Mon. Wed. 4:30 PM - 5:30 PM - <a href="https://syracuseuniversity.zoom.us/j/96889308509" target="_blank"><strong>Zoom Hrs. Link</strong></a></li>
+<li>Also available by appointment on Zoom or in-person</li>
+</ul>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<a href="https://docs.google.com/document/d/1lfvqJBmjWDcDI7FiPJAkV8pEzeG-Y4L1IyeeqEgR4uo/edit?usp=sharing" target="_blank"><strong>Fall 2025 Syllabus</strong></a>
+<ul>
+<li>NOTE: The order of the material varies slightly between semesters so the subjects covered in the syllabus may be updated as the semester progresses. I will always let you know if there are substantial changes.</li>
+</ul>
+<a href="https://forms.gle/hx22fbmzfjxNbryA9" target="_blank"><strong>Fall 2025 Absence Explanation Form</strong></a>
+<ul>
+<li>If you are absent or have a temporary technical issue with POLL EVERYWHERE, use this Google form to explain.</li>
+</ul>
+<a href="https://blackboard.syracuse.edu/ultra/courses/_545090_1/outline" target="_blank"><strong>Fall 2025 MAS 261 Blackboard Site</strong></a>
+<ul>
+<li>Engagement Questions, Assignments, and Tests will be submitted on Blackboard.</li>
+</ul>
+<a href="https://posit.cloud/plans/free" target="_blank"><strong>Posit Cloud Signup Page</strong></a>
+<ul>
+<li>Use this link to sign up for a <strong>FREE</strong> Posit Cloud account.</li>
+</ul>
+<a href="https://www.nytimes.com/2025/06/18/learning/we-need-to-chat-gpt.html?smid=url-share" target="_blank"><strong>Read this letter about AI</strong></a>
+<ul>
+<li><p>Using AI in coding and writing is commonplace and helpful if used cautiously and ethically.</p></li>
+<li><p>This is a great ‘letter’ from a high school student who ‘broke up’ with AI because she felt it was supplanting her own voice. It’s worth your time to read and consider it.</p></li>
+</ul>
+<strong>Useful Software Links</strong>
+<ul>
+<li><a href="https://posit.cloud/" target="_blank">Posit Cloud</a></li>
+<li><a href="https://cran.r-project.org/" target="_blank">R</a></li>
+<li><a href="https://posit.co/download/rstudio-desktop/" target="_blank">RStudio</a></li>
+<li><a href="https://quarto.org/docs/get-started/" target="_blank">Quarto</a></li>
+<li><a href="https://rpubs.com/" target="_blank">RPubs</a></li>
+</ul>
+<strong>OPTIONAL Software Training</strong>
+<ul>
+<li><p><a href="https://linkedinlearning.syr.edu/" target="_blank">LinkedIn Learning</a> - Free for Syracuse University Students, Staff, and Faculty</p>
+<ul>
+<li><p><a href="https://www.linkedin.com/learning/r-for-data-science-analysis-and-visualization?u=76816226" target="_blank">R for Data Science: Analysis and Visualization</a> - This training is optional and provides a good introduction to R and RStudion whch are used in this course.</p></li>
+<li><p><a href="https://www.linkedin.com/learning/python-essential-training-18764650?u=76816226" target="_blank">Python Essential Training</a> - Python is not used in this course but it is helpful for Analytics and Data Science.</p></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p><a href="https://www.datacamp.com/" target="_blank">DataCamp</a> - An excellent (but not free) online learning center for many software packages. Costs can be subsidized (see below).</p></li>
+<li><a href="https://whitman.syracuse.edu/experiential-learning/wire-initiative" target="_blank">Whitman WIRE Initiative</a>
+<ul>
+<li><p>The WIRE initiative will subsidize costs of online software training the results in certification.</p></li>
+<li><p>Contact their office to arrange a meeting and develop a plan.</p></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><a href="https://opensource.syracuse.edu/" target="_blank">SU Open Source Program Office (OSPO)</a> - OSPO offers workshops in open source software such as R/RStudio, Python, Github and facilitates communication between open source software users on campus.</li>
+</ul>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+<div id="lectures-1-10" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-lectures-1-10">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 45fr) minmax(3em, 55fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<p><a href="https://posit.cloud/content/10735606" target="_blank"><strong>MAS 261 Student Files for Lectures 1-8 - R Project on Posit Cloud</strong></a> - Click link to open file in your Posit Cloud and save it. Once file is saved to your account, you should not click this link again.</p>
+<ul>
+<li><p>Note: To make formatted tables in your .qmd more visible in the file output, add the following text after <strong><code>kable() |&gt; kable_styling(full_width = F)</code></strong></p></li>
+<li><a href="https://video.syr.edu/media/t/1_a0qm1usm/352723432" target="_blank"><strong>VIDEO - Creating a FREE Posit Cloud Account</strong></a></li>
+<li><a href="https://video.syr.edu/media/t/1_btulm9h8/352723432" target="_blank"><strong>VIDEO - Intro to Accessing Student Lecture R files in Posit Cloud</strong></a></li>
+<li><a href="https://video.syr.edu/media/t/1_bx1cmhms/352723432" target="_blank"><strong>VIDEO - OPTIONAL Useful Modifications to the Global Options in RStudio</strong></a></li>
+<li><a href="https://video.syr.edu/media/t/1_0pj3i35n/352723432" target="_blank"><strong>VIDEO - Navigating and R File and Running Code in an R .qmd File in Posit Cloud</strong></a></li>
+<li><a href="https://video.syr.edu/media/t/1_b1kccc7t/352723432" target="_blank"><strong>VIDEO - OPTIONAL - Rendering and Printing an R. .qmd File in Posit Cloud</strong></a></li>
+</ul>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<a href="https://pollev.com/penelopepoolereisenbies685" target="_blank" style="color: lightgreen"><strong><em>Poll Everywhere</em></strong></a>
+<p>My User Name: <strong>penelopepoolereisenbies685</strong></p>
+<br>
+<strong>Data Distributions</strong>
+<br>
+<ul>
+<li><p>Lecture 10 - Review</p>
+<ul>
+<li><p>This lecture was a review during wihich we went through some of the practice questions together and I discussed key concepts in each question.</p></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_nzdve0tf/387188682" target="_blank"><strong>VIDEO - Lecture 10 - 2025-09-25 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 9 - Central Limit Theorem</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1223885" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1223886" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/16OV59_uT7RNe2CaQrsOsqG8s-P3A9nsm/view?usp=sharing"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_hvo86l7u/387188682" target="_blank"><strong>VIDEO - Lecture 9 - 2025-09-23 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 8 - Sampling Distribution of the Sample Mean / CLT</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1220620" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1220604" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1-8uq_NN7POxSsgKovo-i9USFuAFORYFV/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_0zuqwmli/387188682" target="_blank"><strong>VIDEO - Lecture 8 - 2025-09-18 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 7 - Empirical Rule / Finding X from a Probability</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1220819" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1220821" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1-29uIhO6YSI_jGL8472QZx99xQ1WdxH-/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_x4smsidj/387188682" target="_blank"><strong>VIDEO - Lecture 7 - 2025-09-16 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 6 - Introduction to the Normal Distribution</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1220421" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1217759" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1ujIhyPile-Zu-dhTfkQD5zVdNz-T5mq2/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_xro0s646/387188682" target="_blank"><strong>VIDEO - Lecture 6 - 2025-09-11 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+<br>
+<strong>Describing Data</strong>
+<br>
+<ul>
+<li><p>Lecture 5 - Visualizing Categorical and Quantitative Data</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1217502" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1217503" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1ugev0bGNZU1_fR4qUDkydQhEgG3hRTY5/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_wiyrs2v6/387188682" target="_blank"><strong>VIDEO - Lecture 5 - 2025-09-09 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 4 - Data Visualizations, Boxplots, Outliers</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1215503" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1215504" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1o63tDFhCWLqsbHvsSp2o-yZ2FXAz58Py/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_83siyp0z/387188682" target="_blank"><strong>VIDEO - Lecture 4 - 2025-09-04 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 3 - Measures of Variability</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1215491" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1215492" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1o5O5NY2gcX0oDGzniBb_cQJdGEZCRZPn/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_8szm67kp/387188682" target="_blank"><strong>VIDEO - Lecture 3 - 2025-09-02 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 2 - Measures of Central Tendancy</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1212300" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1212302" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1B7X9kvma8Tfdrj1jkJmurekhhTH8rKll/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_a81ewlj7/387188682" target="_blank"><strong>VIDEO - Lecture 2 - 2025-08-28 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 1 - Course Introductions and Types of Data</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1211541" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1211543" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1mbjjq4OMmBb81ELnYVK73EVp0nIowyX8/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+</ul></li>
+</ul>
+<br>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+<div id="lectures-13-20" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-lectures-13-20">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 35fr) minmax(3em, 65fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<p><a href="https://posit.cloud/content/8560110" target="_blank"><strong>MAS 261 Student Files for Lectures 13-20 - R Project on Posit Cloud</strong></a> - Click link to open file in your Posit Cloud and save it. Once file is saved to your account, you should not click this link again.</p>
+<ul>
+<li>Note: To make formatted tables in your .qmd more visible in the file output, add the following text after <strong><code>kable() |&gt; kable_styling(full_width = F)</code></strong></li>
+</ul>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<strong>Estimates and Confidence</strong>
+<br>
+<ul>
+<li><p>Lecture 17 - Language of Hypothesis Testing/One Sample t-tests</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1235312" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1235311" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1XujkJNFOnC7viS_VqTQA_6Bl09RradHz/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 16 - Proportions, Percentages and Confidence Intervals</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1232622" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1232623" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1rIuwLPW90rioY-2A-B1ksXDGg27s8wSh/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1-YnYJbk-5S5AmLs1VYovg-rxnoht3hS_/view?usp=sharing" target="_blank"><strong>t-Table</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_dzvjyzw4/387188682" target="_blank"><strong>VIDEO - Lecture 16 - 2025-10-16 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 14 - Effect of Sample Size and Confidence level on Confidence Intervals</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1229841" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1229843" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1QTKUEHi59h-ufQ5PVbTdssKj1wabyERf/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1-YnYJbk-5S5AmLs1VYovg-rxnoht3hS_/view?usp=sharing" target="_blank"><strong>t-Table</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><p><a href="https://video.syr.edu/media/t/1_p9jg8crx/387188682" target="_blank"><strong>VIDEO - Lecture 14 - 2025-10-09 - 11:00 AM</strong></a> - Recording is watchable, but audio issues occurred which will be resolved before the next lecture. Please let me know if you have questions.</p></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><p>Lecture 13 - Intro. to the t Distribution and Confidence Intervals</p>
+<ul>
+<li><a href="https://rpubs.com/PeneLope_PE/1229168" target="_blank"><strong>Slides</strong></a></li>
+<li><a href="https://rpubs.com/PeneLope_PE/1229172" target="_blank"><strong>Notes</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1HpmiXjRTZ4JCjx1dAbog_gWuhTHIhw6y/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Your saved file with your work will be in your account.</li>
+</ul></li>
+<li><a href="https://video.syr.edu/media/t/1_eav05x7l/387188682" target="_blank"><strong>VIDEO - Lecture 13 - 2025-10-07 - 11:00 AM</strong></a></li>
+</ul></li>
+</ul>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+<div id="lectures-21-28" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-lectures-21-28">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: ; grid-auto-columns: minmax(0, 1fr);">
+
+</div>
+</div>
+<div id="homework-assignments" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-homework-assignments">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<a href="https://posit.cloud/content/8556337" target="_blank"><strong>Homework Assignments 2-4 - R Project on Posit Cloud</strong></a>
+<a href="https://posit.cloud/content/8939046" target="_blank"><strong>Homework Assignments 5-7 - R Project on Posit Cloud</strong></a>
+<br>
+<ul>
+<li><p>There is an R Quarto (<code>.qmd</code>) file for each Homework Assignment that will help you answer the questions in the associated Blackboard assignment.</p></li>
+<li><p>Demo Videos will be posted to assist you.</p></li>
+</ul>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<br>
+<ul>
+<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_uolm433j/" target="_blank"><strong>HW 6 - Demo Video Playlist</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Once you download the project above, your saved file with your work will be in your account.</li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_8etuc8lm/" target="_blank"><strong>HW 5 - Demo Video Playlist</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Once you download the project above, your saved file with your work will be in your account.</li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_1jrmlwp2/" target="_blank"><strong>HW 4 - Demo Video Playlist</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Once you download the project above, your saved file with your work will be in your account.</li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_rlqsbmty/" target="_blank"><strong>HW 3 - Demo Video Playlist</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Once you download the project above, your saved file with your work will be in your account.</li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_3dpa5815/" target="_blank"><strong>HW 2 - Demo Video Playlist</strong></a></li>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
+<ul>
+<li>Once you download the project above, your saved file with your work will be in your account.</li>
+</ul></li>
+</ul>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+<div id="practice-questions" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-practice-questions">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<p><a href="https://posit.cloud/content/8813807" target="_blank"><strong>Practice Questions for Quizzes</strong></a> - Accompanying Questions are on Blackboard.</p>
+<br>
+<ul>
+<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a> - Once you download the project above, your saved file with your work will be in your account.</li>
+</ul>
+<br>
+<ul>
+<li><p>There are <strong>four</strong> Quarto (<code>.qmd</code>) files in this R project. Practice Questions for:</p>
+<ul>
+<li><p>Quiz 1 - Part 1</p></li>
+<li><p>Quiz 1 - Part 2</p></li>
+<li><p>Quiz 2</p></li>
+<li><p>Linear Relationships</p></li>
+</ul></li>
+</ul>
+<br>
+<ul>
+<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_k2wn9ozy/" target="_blank"><strong>Quiz 1 Practice Questions - Part 1 - Demo Video Playlist</strong></a></li>
+</ul>
+<br>
+<ul>
+<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_pbwijs9w/" target="_blank"><strong>Quiz 1 Practice Questions - Part 2 - Demo Video Playlist</strong></a></li>
+</ul>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+<div id="installing-r-and-rstudio" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-installing-r-and-rstudio">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<strong>Notes</strong>
+<ul>
+<li><p>Students in MAS 261 are NOT required to install R and RStudio on their laptop but they are welcome to.</p></li>
+<li><p>R and RStudio are two separate software components. Download and install R and then download and install RStudio.</p></li>
+<li><p>When updating your version of R or RStudio, uninstall the previous version first.</p></li>
+</ul>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<strong>Downloading and Installing R</strong>
+<ul>
+<li><p>R can be downloaded from the <a href="https://cran.r-project.org/" target="_blank"><strong>Comprehensive R Archive Network</strong></a></p></li>
+<li><a href="https://video.syr.edu/media/t/1_m775pb4g/352723432" target="_blank"><strong>Video Demo for downloading and installing R on a Windows OS</strong></a></li>
+<li><p>Mac installation is similar.</p></li>
+<li><p>If you do not need to uninstall an out-of-date version of R, skip to 0:53.</p></li>
+<li><p>The current version of R is <strong><code>4.5.1</code></strong>.</p></li>
+</ul>
+<br>
+<strong>Downloading and Installing RStudio</strong>
+<ul>
+<li><p>RStudio can be downloaded from <a href="https://posit.co/download/rstudio-desktop/" target="_blank"><strong>Posit</strong></a>, the parent company of RStudio.</p></li>
+<li><a href="https://video.syr.edu/media/t/1_my39umi3/352723432" target="_blank"><strong>Video Demo for downloading and installing RStudio on a Windows OS</strong></a></li>
+<li><p>Mac installation is similar.</p></li>
+<li><p>If you do not need to uninstall an out-of-date version of RStudio, skip to 0:56.</p></li>
+<li><p>The version shown in the video is from August of 2024 and is out-of-date.</p></li>
+<li><p>The current version of RStudio is <strong><code>2025.5.1.513</code></strong>.</p></li>
+</ul>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden html-fill-item html-fill-container">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/PeneLoopy\.github\.io\/mas_261_sem\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (_event) {
+  if (window.bslib.Card) {
+    window.bslib.Card.initializeAllCards();
+  }
+}); 
+</script>
+  
+
+
+
+</body></html>
