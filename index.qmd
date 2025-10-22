@@ -369,6 +369,22 @@ this link again.
 
 <br>
 
+-   Lecture 18 - Two Sample t-Tests and Confidence Intervals
+
+    -   [**Slides**](https://rpubs.com/PeneLope_PE/1236174){target="_blank"}
+
+    -   [**Notes**](https://rpubs.com/PeneLope_PE/1236179){target="_blank"}
+
+    -   [**PDF**](https://drive.google.com/file/d/1bxnZjFgGjISe0zjIeja2Kmr4Lx7EKWa4/view?usp=sharing){target="_blank"}
+    
+    -   [**Posit
+        Cloud**](https://posit.cloud/){target="_blank"}
+
+        -   Your saved file with your work will be in your
+            account.
+
+<br>
+
 -   Lecture 17 - Language of Hypothesis Testing/One Sample
     t-tests
 
@@ -383,7 +399,7 @@ this link again.
 
         -   Your saved file with your work will be in your
             account.
-            
+
     -   [**VIDEO - Lecture 17 - 2025-10-21 - 11:00
         AM**](https://video.syr.edu/media/t/1_l28queue/387188682){target="_blank"}
 
