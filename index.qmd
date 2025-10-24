@@ -376,12 +376,15 @@ this link again.
     -   [**Notes**](https://rpubs.com/PeneLope_PE/1236179){target="_blank"}
 
     -   [**PDF**](https://drive.google.com/file/d/1bxnZjFgGjISe0zjIeja2Kmr4Lx7EKWa4/view?usp=sharing){target="_blank"}
-    
+
     -   [**Posit
         Cloud**](https://posit.cloud/){target="_blank"}
 
         -   Your saved file with your work will be in your
             account.
+            
+    -   [**VIDEO - Lecture 18 - 2025-10-23 - 11:00
+        AM**](https://video.syr.edu/media/t/1_gu072tiw/387188682){target="_blank"}
 
 <br>
 
