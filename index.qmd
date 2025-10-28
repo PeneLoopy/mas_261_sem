@@ -365,7 +365,25 @@ this link again.
 
 ## Row {height="65%"}
 
-**Estimates and Confidence**
+
+**Hypotheses and Correlations**
+
+<br>
+
+-   Lecture 19 - Contingency Tables and Two Sample Tests of
+    Proportions
+
+    -   [**Slides**](https://rpubs.com/PeneLope_PE/1238251){target="_blank"}
+
+    -   [**Notes**](https://rpubs.com/PeneLope_PE/1238253){target="_blank"}
+
+    -   [**PDF**](https://drive.google.com/file/d/1Ra-ivkv6cN8UlZLvQCpKjzEDGzn0c9tD/view?usp=sharing){target="_blank"}
+    
+    -   [**Posit
+        Cloud**](https://posit.cloud/){target="_blank"}
+
+        -   Your saved file with your work will be in your
+            account.
 
 <br>
 
@@ -405,6 +423,10 @@ this link again.
 
     -   [**VIDEO - Lecture 17 - 2025-10-21 - 11:00
         AM**](https://video.syr.edu/media/t/1_l28queue/387188682){target="_blank"}
+        
+<br>
+        
+**Estimates and Confidence**
 
 <br>
 
