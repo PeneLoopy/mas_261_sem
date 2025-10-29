@@ -365,8 +365,23 @@ this link again.
 
 ## Row {height="65%"}
 
-
 **Hypotheses and Correlations**
+
+<br>
+
+-   Lecture 20 - Introduction to Correlation and Covariance
+
+    -   [**Slides**](https://rpubs.com/PeneLope_PE/1239229){target="_blank"}
+
+    -   [**Notes**](https://rpubs.com/PeneLope_PE/1239230){target="_blank"}
+
+    -   [**PDF**](https://drive.google.com/file/d/1CvWpRPqul2sx2PI121_ryCa0P_cV8jRc/view?usp=sharing){target="_blank"}
+    
+    -   [**Posit
+        Cloud**](https://posit.cloud/){target="_blank"}
+
+        -   Your saved file with your work will be in your
+            account.
 
 <br>
 
@@ -378,12 +393,15 @@ this link again.
     -   [**Notes**](https://rpubs.com/PeneLope_PE/1238253){target="_blank"}
 
     -   [**PDF**](https://drive.google.com/file/d/1Ra-ivkv6cN8UlZLvQCpKjzEDGzn0c9tD/view?usp=sharing){target="_blank"}
-    
+
     -   [**Posit
         Cloud**](https://posit.cloud/){target="_blank"}
 
         -   Your saved file with your work will be in your
             account.
+            
+    -   [**VIDEO - Lecture 19 - 2025-10-28 - 11:00
+        AM**](https://video.syr.edu/media/t/1_h93j0132/387188682){target="_blank"}
 
 <br>
 
@@ -400,7 +418,7 @@ this link again.
 
         -   Your saved file with your work will be in your
             account.
-            
+
     -   [**VIDEO - Lecture 18 - 2025-10-23 - 11:00
         AM**](https://video.syr.edu/media/t/1_gu072tiw/387188682){target="_blank"}
 
@@ -423,9 +441,9 @@ this link again.
 
     -   [**VIDEO - Lecture 17 - 2025-10-21 - 11:00
         AM**](https://video.syr.edu/media/t/1_l28queue/387188682){target="_blank"}
-        
+
 <br>
-        
+
 **Estimates and Confidence**
 
 <br>
@@ -525,7 +543,7 @@ Cloud**](https://posit.cloud/content/8939046){target="_blank"}
 
 -   [**HW 7 - Demo Video
     Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_myw14zfc/){target="_blank"}
-    
+
 -   [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
     -   Once you download the project above, your saved file
