@@ -156,7 +156,7 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   Lecture 10 - Review
+-   **Lecture 10 - Review**
 
     -   This lecture was a review during wihich we went
         through some of the practice questions together and
@@ -173,7 +173,7 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   Lecture 9 - Central Limit Theorem
+-   **Lecture 9 - Central Limit Theorem**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1223885){target="_blank"}
 
@@ -192,8 +192,8 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   Lecture 8 - Sampling Distribution of the Sample Mean /
-    CLT
+-   **Lecture 8 - Sampling Distribution of the Sample Mean /
+    CLT**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1220620){target="_blank"}
 
@@ -212,8 +212,8 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   Lecture 7 - Empirical Rule / Finding X from a
-    Probability
+-   **Lecture 7 - Empirical Rule / Finding X from a
+    Probability**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1220819){target="_blank"}
 
@@ -232,7 +232,7 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   Lecture 6 - Introduction to the Normal Distribution
+-   **Lecture 6 - Introduction to the Normal Distribution**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1220421){target="_blank"}
 
@@ -255,8 +255,8 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   Lecture 5 - Visualizing Categorical and Quantitative
-    Data
+-   **Lecture 5 - Visualizing Categorical and Quantitative
+    Data**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1217502){target="_blank"}
 
@@ -275,7 +275,7 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   Lecture 4 - Data Visualizations, Boxplots, Outliers
+-   **Lecture 4 - Data Visualizations, Boxplots, Outliers**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1215503){target="_blank"}
 
@@ -294,7 +294,7 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   Lecture 3 - Measures of Variability
+-   **Lecture 3 - Measures of Variability**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1215491){target="_blank"}
 
@@ -313,7 +313,7 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   Lecture 2 - Measures of Central Tendancy
+-   **Lecture 2 - Measures of Central Tendancy**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1212300){target="_blank"}
 
@@ -332,7 +332,7 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   Lecture 1 - Course Introductions and Types of Data
+-   **Lecture 1 - Course Introductions and Types of Data**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1211541){target="_blank"}
 
@@ -369,24 +369,27 @@ this link again.
 
 <br>
 
--   Lecture 20 - Introduction to Correlation and Covariance
+-   **Lecture 20 - Introduction to Correlation and Covariance**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1239229){target="_blank"}
 
     -   [**Notes**](https://rpubs.com/PeneLope_PE/1239230){target="_blank"}
 
     -   [**PDF**](https://drive.google.com/file/d/1CvWpRPqul2sx2PI121_ryCa0P_cV8jRc/view?usp=sharing){target="_blank"}
-    
+
     -   [**Posit
         Cloud**](https://posit.cloud/){target="_blank"}
 
         -   Your saved file with your work will be in your
             account.
+            
+    -   [**VIDEO - Lecture 20 - 2025-10-30 - 11:00
+        AM**](https://video.syr.edu/media/t/1_pq0muk4u/387188682){target="_blank"}
 
 <br>
 
--   Lecture 19 - Contingency Tables and Two Sample Tests of
-    Proportions
+-   **Lecture 19 - Contingency Tables and Two Sample Tests of
+    Proportions**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1238251){target="_blank"}
 
@@ -399,13 +402,13 @@ this link again.
 
         -   Your saved file with your work will be in your
             account.
-            
+
     -   [**VIDEO - Lecture 19 - 2025-10-28 - 11:00
         AM**](https://video.syr.edu/media/t/1_h93j0132/387188682){target="_blank"}
 
 <br>
 
--   Lecture 18 - Two Sample t-Tests and Confidence Intervals
+-   **Lecture 18 - Two Sample t-Tests and Confidence Intervals**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1236174){target="_blank"}
 
@@ -424,8 +427,8 @@ this link again.
 
 <br>
 
--   Lecture 17 - Language of Hypothesis Testing/One Sample
-    t-tests
+-   **Lecture 17 - Language of Hypothesis Testing/One Sample
+    t-tests**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1235312){target="_blank"}
 
@@ -448,8 +451,8 @@ this link again.
 
 <br>
 
--   Lecture 16 - Proportions, Percentages and Confidence
-    Intervals
+-   **Lecture 16 - Proportions, Percentages and Confidence
+    Intervals**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1232622){target="_blank"}
 
@@ -470,8 +473,8 @@ this link again.
 
 <br>
 
--   Lecture 14 - Effect of Sample Size and Confidence level
-    on Confidence Intervals
+-   **Lecture 14 - Effect of Sample Size and Confidence level
+    on Confidence Intervals**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1229841){target="_blank"}
 
@@ -495,8 +498,8 @@ this link again.
 
 <br>
 
--   Lecture 13 - Intro. to the t Distribution and Confidence
-    Intervals
+-   **Lecture 13 - Intro. to the t Distribution and Confidence
+    Intervals**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1229168){target="_blank"}
 
