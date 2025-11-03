@@ -520,9 +520,34 @@ this link again.
 
 # Lectures 21-28
 
-## Row {height="30%"}
+## Row {height="35%"}
 
-## Row {height="70%"}
+[**MAS 261 Student Files for Lectures 21-28 - R Project on
+Posit
+Cloud**](https://posit.cloud/content/11322437){target="_blank"} -
+Click link to open file in your Posit Cloud and save it.
+Once file is saved to your account, you should not click
+this link again.
+
+-   Note: To make formatted tables in your .qmd more visible
+    in the file output, add the following text after
+    **`kable() |> kable_styling(full_width = F)`**
+
+## Row {height="65%"}
+
+**Linear relationships**
+
+<br>
+
+-   **Lecture 21 - Introduction to Portfolio Management**
+
+    -   [**Slides**](https://rpubs.com/PeneLope_PE/1241207){target="_blank"}
+
+    -   [**Notes**](https://rpubs.com/PeneLope_PE/1241208){target="_blank"}
+
+    -   [**PDF**](https://drive.google.com/file/d/1-IfsrZvPQ9vAZsGdJWSzhQaMbGVdfBwC/view?usp=sharing){target="_blank"}
+
+<br>
 
 # Homework Assignments
 
