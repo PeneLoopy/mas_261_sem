@@ -369,7 +369,8 @@ this link again.
 
 <br>
 
--   **Lecture 20 - Introduction to Correlation and Covariance**
+-   **Lecture 20 - Introduction to Correlation and
+    Covariance**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1239229){target="_blank"}
 
@@ -382,14 +383,14 @@ this link again.
 
         -   Your saved file with your work will be in your
             account.
-            
+
     -   [**VIDEO - Lecture 20 - 2025-10-30 - 11:00
         AM**](https://video.syr.edu/media/t/1_pq0muk4u/387188682){target="_blank"}
 
 <br>
 
--   **Lecture 19 - Contingency Tables and Two Sample Tests of
-    Proportions**
+-   **Lecture 19 - Contingency Tables and Two Sample Tests
+    of Proportions**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1238251){target="_blank"}
 
@@ -408,7 +409,8 @@ this link again.
 
 <br>
 
--   **Lecture 18 - Two Sample t-Tests and Confidence Intervals**
+-   **Lecture 18 - Two Sample t-Tests and Confidence
+    Intervals**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1236174){target="_blank"}
 
@@ -473,8 +475,8 @@ this link again.
 
 <br>
 
--   **Lecture 14 - Effect of Sample Size and Confidence level
-    on Confidence Intervals**
+-   **Lecture 14 - Effect of Sample Size and Confidence
+    level on Confidence Intervals**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1229841){target="_blank"}
 
@@ -498,8 +500,8 @@ this link again.
 
 <br>
 
--   **Lecture 13 - Intro. to the t Distribution and Confidence
-    Intervals**
+-   **Lecture 13 - Intro. to the t Distribution and
+    Confidence Intervals**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1229168){target="_blank"}
 
@@ -629,6 +631,11 @@ Accompanying Questions are on Blackboard.
     -   Quiz 2
 
     -   Linear Relationships
+
+<br>
+
+-   [**Quiz 2 Practice Questions - Demo Video
+    Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_tk1mb1r6/){target="_blank"}
 
 <br>
 
