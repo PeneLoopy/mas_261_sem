@@ -156,21 +156,27 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
--   **Lecture 10 - Review**
+-   **Lecture 10 - Review for Quiz 1**
 
-    -   This lecture was a review during wihich we went
-        through some of the practice questions together and
-        I discussed key concepts in each question.
+    - [**Practice Questions for Quiz 1 - Part 1 on Blackboard**](https://blackboard.syracuse.edu/ultra/courses/_545090_1/outline/assessment/test/_11605235_1?courseId=_545090_1&gradeitemView=details){target="_blank"}
+    
+    - [**Practice Questions for Quiz 1 - Part 2 on Blackboard**](https://blackboard.syracuse.edu/ultra/courses/_545090_1/outline/assessment/test/_11605236_1?courseId=_545090_1&gradeitemView=details){target="_blank"}
 
-    -   [**Posit
-        Cloud**](https://posit.cloud/){target="_blank"}
+
+       - Students should also review Homework Assignments.
+    
+    - [**Practice Questions for Quizzes**](https://posit.cloud/content/8813807){target="_blank"}
+    
+       - Includes Quarto (`.qmd`) files for each set of Quiz 1 Practice Questions
+       
+       - if you have already saved this R project, use this link: [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
         -   Your saved file with your work will be in your
             account.
 
     -   [**VIDEO - Lecture 10 - 2025-09-25 - 11:00
         AM**](https://video.syr.edu/media/t/1_nzdve0tf/387188682){target="_blank"}
-
+        
 <br>
 
 -   **Lecture 9 - Central Limit Theorem**
@@ -348,7 +354,7 @@ My User Name: **penelopepoolereisenbies685**
 
 <br>
 
-# Lectures 13-20
+# Lectures 13-20 & Lecture 22 
 
 ## Row {height="35%"}
 
@@ -366,6 +372,24 @@ this link again.
 ## Row {height="65%"}
 
 **Hypotheses and Correlations**
+
+-   **Lecture 22 - Review for Quiz 2**
+
+    - [**Practice Questions for Quiz 2 on Blackboard**](https://blackboard.syracuse.edu/ultra/courses/_545090_1/outline/assessment/test/_11605236_1?courseId=_545090_1&gradeitemView=details){target="_blank"}
+    
+       - Students should also review Quiz 1, Practice Questions for Quiz 1, and Homework Assignments.
+    
+    - [**Practice Questions for Quizzes**](https://posit.cloud/content/8813807){target="_blank"}
+    
+       - Includes a Quarto (`.qmd`) file for Quiz 2 Practice Questions
+       
+       - if you have already saved this R project, use this link: [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+        -   Your saved file with your work will be in your
+            account.
+
+    -  [**VIDEO - Lecture 22 - 2025-11-06 - 11:00
+        AM**](https://video.syr.edu/media/t/1_9hwp3ewf/387188682){target="_blank"}
 
 <br>
 
@@ -546,7 +570,7 @@ this link again.
     -   [**Notes**](https://rpubs.com/PeneLope_PE/1241208){target="_blank"}
 
     -   [**PDF**](https://drive.google.com/file/d/1-IfsrZvPQ9vAZsGdJWSzhQaMbGVdfBwC/view?usp=sharing){target="_blank"}
-    
+
     -   [**VIDEO - Lecture 21 - 2025-11-04 - 11:00
         AM**](https://video.syr.edu/media/t/1_rwk0depj/387188682){target="_blank"}
 
