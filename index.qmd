@@ -629,8 +629,8 @@ Cloud**](https://posit.cloud/content/9243762){target="_blank"}
     
     - **NOTES:**  
     
-       - This video was recorded in November of 2024 and the stock adjusted closing values have changed since then.  
-       - The Blackboard solutions match the updated stock adjusted closing values BUT the values shown in the demo videos for some of the questions about stock data are out of date.
+       - This video playlist was recorded in November of 2024, and the stock adjusted-closing values have changed since then.  
+       - The Blackboard solutions match the updated stock adjusted-closing values, BUT the values shown in the demo videos for some of the questions about stock data are out of date.
     
 -   [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
