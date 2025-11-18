@@ -575,6 +575,16 @@ this link again.
 
 <br>
 
+-   **Lecture 25 - Simple Linear Regression Continued**
+
+    -   [**Slides**](https://rpubs.com/PeneLope_PE/1247035){target="_blank"}
+
+    -   [**Notes**](https://rpubs.com/PeneLope_PE/1247033){target="_blank"}
+
+    -   [**PDF**](https://drive.google.com/file/d/1v-JYJh1Xx147UQUtK4JUJMnZoJnJwyhu/view?usp=sharing){target="_blank"}
+
+<br>
+
 -   **Lecture 24 - Introduction to Simple Linear Regression**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1245145){target="_blank"}
@@ -611,7 +621,6 @@ Cloud**](https://posit.cloud/content/8939046){target="_blank"}
 [**Homework Assignments 8-9 - R Project on Posit
 Cloud**](https://posit.cloud/content/9243762){target="_blank"}
 
-
 <br>
 
 -   There is an R Quarto (`.qmd`) file for each Homework
@@ -626,12 +635,17 @@ Cloud**](https://posit.cloud/content/9243762){target="_blank"}
 
 -   [**HW 8 - Demo Video
     Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_9x5lkesk/){target="_blank"}
-    
-    - **NOTES:**  
-    
-       - This video playlist was recorded in November of 2024, and the stock adjusted-closing values have changed since then.  
-       - The Blackboard solutions match the updated stock adjusted-closing values, BUT the values shown in the demo videos for some of the questions about stock data are out of date.
-    
+
+    -   **NOTES:**
+
+        -   This video playlist was recorded in November of
+            2024, and the stock adjusted-closing values have
+            changed since then.\
+        -   The Blackboard solutions match the updated stock
+            adjusted-closing values, BUT the values shown in
+            the demo videos for some of the questions about
+            stock data are out of date.
+
 -   [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
     -   Once you download the project above, your saved file
