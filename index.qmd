@@ -575,6 +575,16 @@ this link again.
 
 <br>
 
+-   **Lecture 26 - Multiple Linear Regression**
+
+    -   [**Slides**](https://rpubs.com/PeneLope_PE/1252678){target="_blank"}
+
+    -   [**Notes**](https://rpubs.com/PeneLope_PE/1252679){target="_blank"}
+
+    -   [**PDF**](https://drive.google.com/file/d/1vVLQ4qVJBsQQgV0axE3lJAi8zbi9swQy/view?usp=sharing){target="_blank"}
+
+<br>
+
 -   **Lecture 25 - Simple Linear Regression Continued**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1247035){target="_blank"}
@@ -582,10 +592,20 @@ this link again.
     -   [**Notes**](https://rpubs.com/PeneLope_PE/1247033){target="_blank"}
 
     -   [**PDF**](https://drive.google.com/file/d/1v-JYJh1Xx147UQUtK4JUJMnZoJnJwyhu/view?usp=sharing){target="_blank"}
+    
+    -   NOTES:  
+    
+        - This lecture was recorded with no audio.  I have checked my microphones and I will review the key details during Lecture 26.  
+        - I am also positing last year's recording below.  
+        - In 2024, I used a different in-class polling system so the questions in the video will appear differently than those given in in class in 2025.
+        
+        -   [**VIDEO - Lecture 25 - 2024-11-19 - 11:00
+        AM**](https://video.syr.edu/media/t/1_10lktgyr/354195742){target="_blank"}
 
 <br>
 
--   **Lecture 24 - Introduction to Simple Linear Regression**
+-   **Lecture 24 - Introduction to Simple Linear
+    Regression**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1245145){target="_blank"}
 
@@ -640,11 +660,11 @@ Cloud**](https://posit.cloud/content/9243762){target="_blank"}
 
         -   This video playlist was recorded in November of
             2024, and the stock adjusted-closing values have
-            changed since then.\
+            changed slightly since then.
         -   The Blackboard solutions match the updated stock
             adjusted-closing values, BUT the values shown in
             the demo videos for some of the questions about
-            stock data are out of date.
+            stock data are slightly out of date.
 
 -   [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
