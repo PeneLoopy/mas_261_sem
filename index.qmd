@@ -575,6 +575,19 @@ this link again.
 
 <br>
 
+-   **Lecture 27 - Introduction to Linear Transformations**
+
+    -   [**Slides**](https://rpubs.com/PeneLope_PE/1253624){target="_blank"}
+
+    -   [**Notes**](https://rpubs.com/PeneLope_PE/1253626){target="_blank"}
+
+    -   [**PDF**](https://drive.google.com/file/d/1Y48deDOVxyKr7PQWAHy2xgqM4ZNfn7-0/view?usp=sharing){target="_blank"}
+    
+    - [**Course Evaluations**](http://coursefeedback.syr.edu/){target="_blank"}
+
+
+<br>
+
 -   **Lecture 26 - Multiple Linear Regression**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1252678){target="_blank"}
@@ -582,6 +595,10 @@ this link again.
     -   [**Notes**](https://rpubs.com/PeneLope_PE/1252679){target="_blank"}
 
     -   [**PDF**](https://drive.google.com/file/d/1vVLQ4qVJBsQQgV0axE3lJAi8zbi9swQy/view?usp=sharing){target="_blank"}
+    
+    -   [**VIDEO - Lecture 26 - 2025-11-20 - 11:00
+        AM**](https://video.syr.edu/media/t/1_gujlzyt0/387188682){target="_blank"}
+
 
 <br>
 
@@ -592,15 +609,22 @@ this link again.
     -   [**Notes**](https://rpubs.com/PeneLope_PE/1247033){target="_blank"}
 
     -   [**PDF**](https://drive.google.com/file/d/1v-JYJh1Xx147UQUtK4JUJMnZoJnJwyhu/view?usp=sharing){target="_blank"}
-    
-    -   NOTES:  
-    
-        - This lecture was recorded with no audio.  I have checked my microphones and I will review the key details during Lecture 26.  
-        - I am also positing last year's recording below.  
-        - In 2024, I used a different in-class polling system so the questions in the video will appear differently than those given in in class in 2025.
-        
+
+    -   NOTES:
+
+        -   This lecture was recorded with no audio. I have
+            checked my microphones and I will review the key
+            details during Lecture 26.\
+
+        -   I am also positing last year's recording below.\
+
+        -   In 2024, I used a different in-class polling
+            system so the questions in the video will appear
+            differently than those given in in class in
+            2025.
+
         -   [**VIDEO - Lecture 25 - 2024-11-19 - 11:00
-        AM**](https://video.syr.edu/media/t/1_10lktgyr/354195742){target="_blank"}
+            AM**](https://video.syr.edu/media/t/1_10lktgyr/354195742){target="_blank"}
 
 <br>
 
@@ -650,6 +674,16 @@ Cloud**](https://posit.cloud/content/9243762){target="_blank"}
 -   Demo Videos will be posted to assist you.
 
 ## Row
+
+<br>
+
+-   [**HW 9 - Demo Video
+    Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_tbbw7fns/){target="_blank"}
+    
+-   [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    -   Once you download the project above, your saved file
+        with your work will be in your account.
 
 <br>
 
@@ -735,8 +769,7 @@ Cloud**](https://posit.cloud/content/9243762){target="_blank"}
 
 ## Row
 
-[**Practice Questions for
-Quizzes**](https://posit.cloud/content/8813807){target="_blank"} -
+[**Practice Questions for Quizzes**](https://posit.cloud/content/8813807){target="_blank"} -
 Accompanying Questions are on Blackboard.
 
 <br>
@@ -761,8 +794,11 @@ Accompanying Questions are on Blackboard.
 
 <br>
 
--   [**Quiz 2 Practice Questions - Demo Video
-    Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_tk1mb1r6/){target="_blank"}
+-   [**Practice Questions - Linear Relationships - Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_zi2w2zvd/){target="_blank"}
+
+<br>
+
+-   [**Quiz 2 Practice Questions - Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_tk1mb1r6/){target="_blank"}
 
 <br>
 
