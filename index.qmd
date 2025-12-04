@@ -575,6 +575,14 @@ this link again.
 
 <br>
 
+-   **Lecture 28 - Review of Material on Linear Relationships**
+
+    - In class today we will go through the final set of practice questions to review the concepts from this section of the course.
+    
+    - There will be Poll Everywhere questions throughout the lecture.
+
+<br>
+
 -   **Lecture 27 - Introduction to Linear Transformations**
 
     -   [**Slides**](https://rpubs.com/PeneLope_PE/1253624){target="_blank"}
@@ -582,9 +590,11 @@ this link again.
     -   [**Notes**](https://rpubs.com/PeneLope_PE/1253626){target="_blank"}
 
     -   [**PDF**](https://drive.google.com/file/d/1Y48deDOVxyKr7PQWAHy2xgqM4ZNfn7-0/view?usp=sharing){target="_blank"}
-    
-    - [**Course Evaluations**](http://coursefeedback.syr.edu/){target="_blank"}
 
+    -   [**Course
+        Evaluations**](http://coursefeedback.syr.edu/){target="_blank"}
+        
+    -   [**VIDEO - Lecture 27 - 2025-12-02 - 11:00 AM**](https://video.syr.edu/media/t/1_8cz95w06/387188682){target="_blank"}
 
 <br>
 
