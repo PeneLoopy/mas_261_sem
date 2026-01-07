@@ -6,7 +6,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: This website provides access to MAS 261 lecture slides, notes, and R code files, regardless of access to Blackboard.
+        text: This website provides semester-long access to MAS 261 lecture slides, notes, and R code files, regardless of access to Blackboard.
 
 format:
   html:
