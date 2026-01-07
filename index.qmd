@@ -573,16 +573,19 @@ this link again.
 
 -   **Lecture 29 - Review for Final Exam**
 
-    - In this lecture, we will go through practice questions from previous tests and I will answer questions and provide guidance to help students prepare for the MAS 261 Final Exam.
-   
+    -   In this lecture, we will go through practice
+        questions from previous tests and I will answer
+        questions and provide guidance to help students
+        prepare for the MAS 261 Final Exam.
+
     -   There will be Poll Everywhere questions throughout
         the lecture.
 
-    -   [**VIDEO - Lecture 29 - 2025-12-09 - 11:00 AM**](https://video.syr.edu/media/t/1_ybsjly4f/387188682){target="_blank"}
-    
-    
+    -   [**VIDEO - Lecture 29 - 2025-12-09 - 11:00
+        AM**](https://video.syr.edu/media/t/1_ybsjly4f/387188682){target="_blank"}
+
 <br>
-   
+
 **Linear relationships**
 
 <br>
@@ -596,10 +599,9 @@ this link again.
 
     -   There will be Poll Everywhere questions throughout
         the lecture.
-        
+
     -   [**VIDEO - Lecture 28 - 2025-12-04 - 11:00
         AM**](https://video.syr.edu/media/t/1_pzab6e1h/387188682){target="_blank"}
-
 
 <br>
 
