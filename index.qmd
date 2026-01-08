@@ -879,7 +879,7 @@ Accompanying Questions are on Blackboard.
 -   If you do not need to uninstall an out-of-date version
     of R, skip to 0:53.
 
--   The current version of R is **`4.5.1`**.
+-   The current version of R is **`4.5.2`**.
 
 <br>
 
@@ -901,4 +901,4 @@ Accompanying Questions are on Blackboard.
 -   The version shown in the video is from August of 2024
     and is out-of-date.
 
--   The current version of RStudio is **`2025.5.1.513`**.
+-   The current version of RStudio is **`2026.1.0.392`**.
