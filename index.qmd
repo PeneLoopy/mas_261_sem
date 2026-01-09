@@ -5,6 +5,28 @@ format: dashboard
 
 # Syllabus and Course Links
 
+```{r include=F}
+#| label: setup
+
+options(scipen=100)                         # suppress scientific notation
+                                            # install pacman if needed
+if (!require("pacman")) install.packages("pacman", repos = "http://lib.stat.cmu.edu/R/CRAN/")
+pacman::p_load(pacman, tidyverse, ggthemes, gridExtra, magrittr,
+               kableExtra, gt)
+
+#pacman::p_loaded()
+
+```
+
+```{r echo=F}
+#| label: created formatted date
+# create variables for inline code
+today <- Sys.Date()                                                # saves today's date
+today_fmt <- stamp("Saturday, January 1, 1999", quiet = T)(today)  # formats date
+
+```
+
+
 ## Row {height="30%"}
 
 **Professor Pooler (pspooler\@syr.edu) - Office: WSOM Room
@@ -144,11 +166,9 @@ this link again.
 
 ## Row {height="55%"}
 
-[***Poll
-Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"
-style="color: lightgreen"}
+[***Poll Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"style="color: lightgreen"} - My User Name: **penelopepoolereisenbies685**
 
-My User Name: **penelopepoolereisenbies685**
+**This website was last updated on `r today_fmt`.**
 
 <br>
 
@@ -377,6 +397,12 @@ this link again.
 
 ## Row {height="65%"}
 
+[***Poll Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"style="color: lightgreen"} - My User Name: **penelopepoolereisenbies685**
+
+**This website was last updated on `r today_fmt`.**
+
+<br>
+
 **Hypotheses and Correlations**
 
 -   **Lecture 22 - Review for Quiz 2**
@@ -570,6 +596,13 @@ this link again.
     **`kable() |> kable_styling(full_width = F)`**
 
 ## Row {height="65%"}
+
+[***Poll Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"style="color: lightgreen"} - My User Name: **penelopepoolereisenbies685**
+
+
+**This website was last updated on `r today_fmt`.**
+
+<br>
 
 -   **Lecture 29 - Review for Final Exam**
 
