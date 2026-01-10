@@ -26,7 +26,6 @@ today_fmt <- stamp("Saturday, January 1, 1999", quiet = T)(today)  # formats dat
 
 ```
 
-
 ## Row {height="30%"}
 
 **Professor Pooler (pspooler\@syr.edu) - Office: WSOM Room
@@ -98,13 +97,13 @@ AI**](https://www.nytimes.com/2025/06/18/learning/we-need-to-chat-gpt.html?smid=
     -   [R for Data Science: Analysis and
         Visualization](https://www.linkedin.com/learning/r-for-data-science-analysis-and-visualization?u=76816226){target="_blank"} -
         This training is optional and provides a good
-        introduction to R and RStudion whch are used in this
+        introduction to R and RStudio which are used in this
         course.
 
     -   [Python Essential
         Training](https://www.linkedin.com/learning/python-essential-training-18764650?u=76816226){target="_blank"} -
         Python is not used in this course but it is helpful
-        for Analytics and Data Science.
+        for analytics and data science.
 
 <br>
 
@@ -117,7 +116,7 @@ AI**](https://www.nytimes.com/2025/06/18/learning/we-need-to-chat-gpt.html?smid=
     Initiative](https://whitman.syracuse.edu/experiential-learning/wire-initiative){target="_blank"}
 
     -   The WIRE initiative will subsidize costs of online
-        software training the results in certification.
+        software training that results in certification.
 
     -   Contact their office to arrange a meeting and
         develop a plan.
@@ -166,7 +165,10 @@ this link again.
 
 ## Row {height="55%"}
 
-[***Poll Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"style="color: lightgreen"} - My User Name: **penelopepoolereisenbies685**
+[***Poll
+Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"
+style="color: lightgreen"} - My User Name:
+**penelopepoolereisenbies685**
 
 **This website was last updated on `r today_fmt`.**
 
@@ -397,7 +399,10 @@ this link again.
 
 ## Row {height="65%"}
 
-[***Poll Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"style="color: lightgreen"} - My User Name: **penelopepoolereisenbies685**
+[***Poll
+Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"
+style="color: lightgreen"} - My User Name:
+**penelopepoolereisenbies685**
 
 **This website was last updated on `r today_fmt`.**
 
@@ -597,8 +602,10 @@ this link again.
 
 ## Row {height="65%"}
 
-[***Poll Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"style="color: lightgreen"} - My User Name: **penelopepoolereisenbies685**
-
+[***Poll
+Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"
+style="color: lightgreen"} - My User Name:
+**penelopepoolereisenbies685**
 
 **This website was last updated on `r today_fmt`.**
 
