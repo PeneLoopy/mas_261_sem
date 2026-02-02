@@ -159,7 +159,7 @@ this link again.
     R .qmd File in Posit
     Cloud**](https://video.syr.edu/media/t/1_0pj3i35n/352723432){target="_blank"}
 
--   [**VIDEO - OPTIONAL - Rendering and Printing an R. .qmd
+-   [**VIDEO - OPTIONAL - Rendering and Printing an R .qmd
     File in Posit
     Cloud**](https://video.syr.edu/media/t/1_b1kccc7t/352723432){target="_blank"}
 
