@@ -1,0 +1,52 @@
+- **Lecture 1 - Course Introductions and Types of Data**
+
+  - [**Slides**](https://rpubs.com/PeneLope_PE/1211541){target="_blank"}
+
+  - [**Notes**](https://rpubs.com/PeneLope_PE/1211543){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1mbjjq4OMmBb81ELnYVK73EVp0nIowyX8/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+      
+      
+      
+-   [**VIDEO - Intro to Accessing Student Lecture R files in
+    Posit
+    Cloud**](https://video.syr.edu/media/t/1_btulm9h8/352723432){target="_blank"}
+
+-   [**VIDEO - OPTIONAL Useful Modifications to the Global
+    Options in
+    RStudio**](https://video.syr.edu/media/t/1_bx1cmhms/352723432){target="_blank"}
+
+-   [**VIDEO - Navigating an R File and Running Code in an
+    R .qmd File in Posit
+    Cloud**](https://video.syr.edu/media/t/1_0pj3i35n/352723432){target="_blank"}
+
+-   [**VIDEO - OPTIONAL - Rendering and Printing an R .qmd
+    File in Posit
+    Cloud**](https://video.syr.edu/media/t/1_b1kccc7t/352723432){target="_blank"}
+    
+
+    
+[**Homework Assignments 2-4 - R Project on Posit
+Cloud**](https://posit.cloud/content/8556337){target="_blank"}
+
+[**Homework Assignments 5-7 - R Project on Posit
+Cloud**](https://posit.cloud/content/8939046){target="_blank"}
+
+[**Homework Assignments 8-9 - R Project on Posit
+Cloud**](https://posit.cloud/content/9243762){target="_blank"}
+
+
+
+
+-   [**HW 2 - Demo Video
+    Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_3dpa5815/){target="_blank"}
+
+-   [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    -   Once you download the project above, your saved file
+        with your work will be in your account.
