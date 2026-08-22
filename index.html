@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>MAS 261</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -32,19 +38,18 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b654365ec9f6baf3fdeb64dbed93b847.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-dark-b654365ec9f6baf3fdeb64dbed93b847.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-b654365ec9f6baf3fdeb64dbed93b847.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a144dc26af1b0fab00831705ef51cdeb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark-a144dc26af1b0fab00831705ef51cdeb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a144dc26af1b0fab00831705ef51cdeb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-dashboard/quarto-dashboard.js"></script>
 <script src="site_libs/quarto-dashboard/stickythead.js"></script>
 
@@ -120,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
     </button>    
 
 
-<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-syllabus-and-course-links" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#syllabus-and-course-links" data-scrolling="false" href="#syllabus-and-course-links" aria-controls="syllabus-and-course-links" aria-selected="true"><span class="nav-link-text">Syllabus and Course Links</span></a></li><li class="nav-item" role="presentation"><a id="tab-lectures-1-10" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#lectures-1-10" data-scrolling="false" href="#lectures-1-10" aria-controls="lectures-1-10" aria-selected="false"><span class="nav-link-text">Lectures 1-10</span></a></li><li class="nav-item" role="presentation"><a id="tab-lectures-13-20-lecture-22" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#lectures-13-20-lecture-22" data-scrolling="false" href="#lectures-13-20-lecture-22" aria-controls="lectures-13-20-lecture-22" aria-selected="false"><span class="nav-link-text">Lectures 13-20 &amp; Lecture 22</span></a></li><li class="nav-item" role="presentation"><a id="tab-lectures-21-29" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#lectures-21-29" data-scrolling="false" href="#lectures-21-29" aria-controls="lectures-21-29" aria-selected="false"><span class="nav-link-text">Lectures 21-29</span></a></li><li class="nav-item" role="presentation"><a id="tab-homework-assignments" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#homework-assignments" data-scrolling="false" href="#homework-assignments" aria-controls="homework-assignments" aria-selected="false"><span class="nav-link-text">Homework Assignments</span></a></li><li class="nav-item" role="presentation"><a id="tab-practice-questions" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#practice-questions" data-scrolling="false" href="#practice-questions" aria-controls="practice-questions" aria-selected="false"><span class="nav-link-text">Practice Questions</span></a></li><li class="nav-item" role="presentation"><a id="tab-installing-r-and-rstudio" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#installing-r-and-rstudio" data-scrolling="false" href="#installing-r-and-rstudio" aria-controls="installing-r-and-rstudio" aria-selected="false"><span class="nav-link-text">Installing R and Rstudio</span></a></li></ul></div></div></nav>
+<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-syllabus-and-course-links" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#syllabus-and-course-links" data-scrolling="false" href="#syllabus-and-course-links" aria-controls="syllabus-and-course-links" aria-selected="true"><span class="nav-link-text">Syllabus and Course Links</span></a></li><li class="nav-item" role="presentation"><a id="tab-lectures-1-14" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#lectures-1-14" data-scrolling="false" href="#lectures-1-14" aria-controls="lectures-1-14" aria-selected="false"><span class="nav-link-text">Lectures 1-14</span></a></li><li class="nav-item" role="presentation"><a id="tab-lectures-16-26" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#lectures-16-26" data-scrolling="false" href="#lectures-16-26" aria-controls="lectures-16-26" aria-selected="false"><span class="nav-link-text">Lectures 16-26</span></a></li><li class="nav-item" role="presentation"><a id="tab-homework-assignments" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#homework-assignments" data-scrolling="false" href="#homework-assignments" aria-controls="homework-assignments" aria-selected="false"><span class="nav-link-text">Homework Assignments</span></a></li><li class="nav-item" role="presentation"><a id="tab-installing-r-and-rstudio" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#installing-r-and-rstudio" data-scrolling="false" href="#installing-r-and-rstudio" aria-controls="installing-r-and-rstudio" aria-selected="false"><span class="nav-link-text">Installing R and Rstudio</span></a></li></ul></div></div></nav>
 </header></header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages">
@@ -137,7 +142,7 @@ grid-auto-rows: minmax(0, 1fr);">
 <div class="card-body html-fill-item html-fill-container">
 <strong>Professor Pooler (pspooler@syr.edu) - Office: WSOM Room 518</strong>
 <ul>
-<li>In-Person Hours: Tue. Thu. 3:40 PM - 4:40 PM</li>
+<li>In-Person Hours: Tue. Thu. 3:40 PM - 4:45 PM</li>
 <li>Zoom Hours: Mon. Wed. 4:30 PM - 5:30 PM - <a href="https://syracuseuniversity.zoom.us/j/96889308509" target="_blank"><strong>Zoom Hrs. Link</strong></a></li>
 <li>Also available by appointment on Zoom or in-person</li>
 </ul>
@@ -153,15 +158,15 @@ grid-auto-rows: minmax(0, 1fr);">
 grid-auto-rows: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
-<a href="https://docs.google.com/document/d/1lfvqJBmjWDcDI7FiPJAkV8pEzeG-Y4L1IyeeqEgR4uo/edit?usp=sharing" target="_blank"><strong>Fall 2025 Syllabus</strong></a>
+<a href="https://docs.google.com/document/d/1ycqRSNZWkvodKbACx_fq_Bx8cS-HBdHsLDcDNTIoz6I/edit?usp=sharing" target="_blank"><strong>Fall 2026 Syllabus</strong></a>
 <ul>
 <li>NOTE: The order of the material varies slightly between semesters so the subjects covered in the syllabus may be updated as the semester progresses. I will always let you know if there are substantial changes.</li>
 </ul>
-<a href="https://forms.gle/hx22fbmzfjxNbryA9" target="_blank"><strong>Fall 2025 Absence Explanation Form</strong></a>
+<a href="https://forms.gle/KouC7MXrnA9pj7vb7" target="_blank"><strong>Fall 2026 Absence Explanation Form</strong></a>
 <ul>
 <li>If you are absent or have a temporary technical issue with POLL EVERYWHERE, use this Google form to explain.</li>
 </ul>
-<a href="https://blackboard.syracuse.edu/ultra/courses/_545090_1/outline" target="_blank"><strong>Fall 2025 MAS 261 Blackboard Site</strong></a>
+<a href="https://blackboard.syracuse.edu/ultra/courses/_567317_1/outline" target="_blank"><strong>Fall 2026 MAS 261 Blackboard Site</strong></a>
 <ul>
 <li>Engagement Questions, Assignments, and Tests will be submitted on Blackboard.</li>
 </ul>
@@ -178,21 +183,32 @@ grid-auto-rows: minmax(0, 1fr);">
 <ul>
 <li><a href="https://posit.cloud/" target="_blank">Posit Cloud</a></li>
 <li><a href="https://cran.r-project.org/" target="_blank">R</a></li>
-<li><a href="https://posit.co/download/rstudio-desktop/" target="_blank">RStudio</a></li>
+<li><a href="https://posit.co/products/open-source/rstudio" target="_blank">RStudio</a></li>
 <li><a href="https://quarto.org/docs/get-started/" target="_blank">Quarto</a></li>
-<li><a href="https://rpubs.com/" target="_blank">RPubs</a></li>
 </ul>
 <strong>OPTIONAL Software Training</strong>
 <ul>
 <li><p><a href="https://linkedinlearning.syr.edu/" target="_blank">LinkedIn Learning</a> - Free for Syracuse University Students, Staff, and Faculty</p>
 <ul>
-<li><p><a href="https://www.linkedin.com/learning/r-for-data-science-analysis-and-visualization?u=76816226" target="_blank">R for Data Science: Analysis and Visualization</a> - This training is optional and provides a good introduction to R and RStudio which are used in this course.</p></li>
-<li><p><a href="https://www.linkedin.com/learning/python-essential-training-18764650?u=76816226" target="_blank">Python Essential Training</a> - Python is not used in this course but it is helpful for analytics and data science.</p></li>
+<li><a href="https://www.linkedin.com/learning/r-for-data-science-analysis-and-visualization?u=76816226" target="_blank">R for Data Science: Analysis and Visualization</a>
+<ul>
+<li>This training is optional and provides a good introduction to R and RStudio which are used in this course.</li>
+</ul></li>
+<li><a href="https://www.linkedin.com/learning/python-essential-training-18764650?u=76816226" target="_blank">Python Essential Training</a>
+<ul>
+<li>Python is not used in this course but it is helpful for analytics and data science.</li>
+</ul></li>
 </ul></li>
 </ul>
 <br>
 <ul>
-<li><p><a href="https://www.datacamp.com/" target="_blank">DataCamp</a> - An excellent (but not free) online learning center for many software packages. Costs can be subsidized (see below).</p></li>
+<li><a href="https://www.datacamp.com/" target="_blank">DataCamp</a>
+<ul>
+<li>An excellent (but not free) online learning center for many software packages. Costs can be subsidized (see below).</li>
+</ul></li>
+</ul>
+<br>
+<ul>
 <li><a href="https://whitman.syracuse.edu/experiential-learning/wire-initiative" target="_blank">Whitman WIRE Initiative</a>
 <ul>
 <li><p>The WIRE initiative will subsidize costs of online software training that results in certification.</p></li>
@@ -201,7 +217,10 @@ grid-auto-rows: minmax(0, 1fr);">
 </ul>
 <br>
 <ul>
-<li><a href="https://opensource.syracuse.edu/" target="_blank">SU Open Source Program Office (OSPO)</a> - OSPO offers workshops in open source software such as R/RStudio, Python, Github and facilitates communication between open source software users on campus.</li>
+<li><a href="https://opensource.syracuse.edu/" target="_blank">SU Open Source Program Office (OSPO)</a>
+<ul>
+<li>OSPO offers workshops in open source software such as R/RStudio, Python, Github and facilitates communication between open source software users on campus.</li>
+</ul></li>
 </ul>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
@@ -213,20 +232,23 @@ grid-auto-rows: minmax(0, 1fr);">
 </div>
 </div>
 </div>
-<div id="lectures-1-10" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-lectures-1-10">
+<div id="lectures-1-14" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-lectures-1-14">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 45fr) minmax(3em, 55fr); grid-auto-columns: minmax(0, 1fr);">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
-<p><a href="https://posit.cloud/content/10735606" target="_blank"><strong>MAS 261 Student Files for Lectures 1-8 - R Project on Posit Cloud</strong></a> - Click link to open file in your Posit Cloud and save it. Once file is saved to your account, you should not click this link again.</p>
+<strong>The link for the R Project with MAS 261 Student Files for Lectures 1-14 will be posted on Monday, Agust 24th, 2026</strong>
+<br>
 <ul>
-<li><p>Note: To make formatted tables in your .qmd more visible in the file output, add the following text after <strong><code>kable() |&gt; kable_styling(full_width = F)</code></strong></p></li>
 <li><a href="https://video.syr.edu/media/t/1_a0qm1usm/352723432" target="_blank"><strong>VIDEO - Creating a FREE Posit Cloud Account</strong></a></li>
-<li><a href="https://video.syr.edu/media/t/1_btulm9h8/352723432" target="_blank"><strong>VIDEO - Intro to Accessing Student Lecture R files in Posit Cloud</strong></a></li>
-<li><a href="https://video.syr.edu/media/t/1_bx1cmhms/352723432" target="_blank"><strong>VIDEO - OPTIONAL Useful Modifications to the Global Options in RStudio</strong></a></li>
-<li><a href="https://video.syr.edu/media/t/1_0pj3i35n/352723432" target="_blank"><strong>VIDEO - Navigating and R File and Running Code in an R .qmd File in Posit Cloud</strong></a></li>
-<li><a href="https://video.syr.edu/media/t/1_b1kccc7t/352723432" target="_blank"><strong>VIDEO - OPTIONAL - Rendering and Printing an R .qmd File in Posit Cloud</strong></a></li>
+</ul>
+<br>
+<ul>
+<li><p>Note: To make formatted tables in your .qmd more visible in the file output add the following text after <strong><code>kable()</code></strong></p>
+<ul>
+<li><strong><code>|&gt; kable_styling(full_width = F)</code></strong></li>
+</ul></li>
 </ul>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
@@ -241,155 +263,10 @@ grid-auto-rows: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
 <p><a href="https://pollev.com/penelopepoolereisenbies685" target="_blank" style="color: lightgreen"><strong><em>Poll Everywhere</em></strong></a> - My User Name: <strong>penelopepoolereisenbies685</strong></p>
-<strong>This website was last updated on Monday, February 02, 2026.</strong>
-<br>
-<strong>Data Distributions</strong>
-<br>
-<ul>
-<li><strong>Lecture 10 - Review for Quiz 1</strong>
-<ul>
-<li><a href="https://blackboard.syracuse.edu/ultra/courses/_545090_1/outline/assessment/test/_11605235_1?courseId=_545090_1&amp;gradeitemView=details" target="_blank"><strong>Practice Questions for Quiz 1 - Part 1 on Blackboard</strong></a></li>
-<li><a href="https://blackboard.syracuse.edu/ultra/courses/_545090_1/outline/assessment/test/_11605236_1?courseId=_545090_1&amp;gradeitemView=details" target="_blank"><strong>Practice Questions for Quiz 1 - Part 2 on Blackboard</strong></a>
-<ul>
-<li>Students should also review Homework Assignments.</li>
-</ul></li>
-<li><a href="https://posit.cloud/content/8813807" target="_blank"><strong>Practice Questions for Quizzes</strong></a>
-<ul>
-<li><p>Includes Quarto (<code>.qmd</code>) files for each set of Quiz 1 Practice Questions</p></li>
-<li><p>if you have already saved this R project, use this link: <a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a></p></li>
-<li><p>Your saved file with your work will be in your account.</p></li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_nzdve0tf/387188682" target="_blank"><strong>VIDEO - Lecture 10 - 2025-09-25 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 9 - Central Limit Theorem</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1223885" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1223886" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/16OV59_uT7RNe2CaQrsOsqG8s-P3A9nsm/view?usp=sharing"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_hvo86l7u/387188682" target="_blank"><strong>VIDEO - Lecture 9 - 2025-09-23 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 8 - Sampling Distribution of the Sample Mean / CLT</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1220620" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1220604" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1-8uq_NN7POxSsgKovo-i9USFuAFORYFV/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_0zuqwmli/387188682" target="_blank"><strong>VIDEO - Lecture 8 - 2025-09-18 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 7 - Empirical Rule / Finding X from a Probability</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1220819" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1220821" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1-29uIhO6YSI_jGL8472QZx99xQ1WdxH-/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_x4smsidj/387188682" target="_blank"><strong>VIDEO - Lecture 7 - 2025-09-16 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 6 - Introduction to the Normal Distribution</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1220421" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1217759" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1ujIhyPile-Zu-dhTfkQD5zVdNz-T5mq2/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_xro0s646/387188682" target="_blank"><strong>VIDEO - Lecture 6 - 2025-09-11 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
+<strong>This website was last updated on Saturday, August 22, 2026.</strong>
 <br>
 <strong>Describing Data</strong>
 <br>
-<ul>
-<li><strong>Lecture 5 - Visualizing Categorical and Quantitative Data</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1217502" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1217503" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1ugev0bGNZU1_fR4qUDkydQhEgG3hRTY5/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_wiyrs2v6/387188682" target="_blank"><strong>VIDEO - Lecture 5 - 2025-09-09 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 4 - Data Visualizations, Boxplots, Outliers</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1215503" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1215504" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1o63tDFhCWLqsbHvsSp2o-yZ2FXAz58Py/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_83siyp0z/387188682" target="_blank"><strong>VIDEO - Lecture 4 - 2025-09-04 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 3 - Measures of Variability</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1215491" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1215492" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1o5O5NY2gcX0oDGzniBb_cQJdGEZCRZPn/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_8szm67kp/387188682" target="_blank"><strong>VIDEO - Lecture 3 - 2025-09-02 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 2 - Measures of Central Tendancy</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1212300" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1212302" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1B7X9kvma8Tfdrj1jkJmurekhhTH8rKll/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_a81ewlj7/387188682" target="_blank"><strong>VIDEO - Lecture 2 - 2025-08-28 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 1 - Course Introductions and Types of Data</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1211541" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1211543" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1mbjjq4OMmBb81ELnYVK73EVp0nIowyX8/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-</ul></li>
-</ul>
-<br>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -400,15 +277,19 @@ grid-auto-rows: minmax(0, 1fr);">
 </div>
 </div>
 </div>
-<div id="lectures-13-20-lecture-22" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-lectures-13-20-lecture-22">
+<div id="lectures-16-26" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-lectures-16-26">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 35fr) minmax(3em, 65fr); grid-auto-columns: minmax(0, 1fr);">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
-<p><a href="https://posit.cloud/content/8560110" target="_blank"><strong>MAS 261 Student Files for Lectures 13-20 - R Project on Posit Cloud</strong></a> - Click link to open file in your Posit Cloud and save it. Once file is saved to your account, you should not click this link again.</p>
+<strong>The link for the R Project with MAS 261 Student Files for Lectures 16-26 will be posted before Lecture 16.</strong>
+<br>
 <ul>
-<li>Note: To make formatted tables in your .qmd more visible in the file output, add the following text after <strong><code>kable() |&gt; kable_styling(full_width = F)</code></strong></li>
+<li><p>Note: To make formatted tables in your .qmd more visible in the file output add the following text after <strong><code>kable()</code></strong></p>
+<ul>
+<li><strong><code>|&gt; kable_styling(full_width = F)</code></strong></li>
+</ul></li>
 </ul>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
@@ -423,243 +304,7 @@ grid-auto-rows: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
 <p><a href="https://pollev.com/penelopepoolereisenbies685" target="_blank" style="color: lightgreen"><strong><em>Poll Everywhere</em></strong></a> - My User Name: <strong>penelopepoolereisenbies685</strong></p>
-<strong>This website was last updated on Monday, February 02, 2026.</strong>
-<br>
-<strong>Hypotheses and Correlations</strong>
-<ul>
-<li><strong>Lecture 22 - Review for Quiz 2</strong>
-<ul>
-<li><a href="https://blackboard.syracuse.edu/ultra/courses/_545090_1/outline/assessment/test/_11605236_1?courseId=_545090_1&amp;gradeitemView=details" target="_blank"><strong>Practice Questions for Quiz 2 on Blackboard</strong></a>
-<ul>
-<li>Students should also review Quiz 1, Practice Questions for Quiz 1, and Homework Assignments.</li>
-</ul></li>
-<li><a href="https://posit.cloud/content/8813807" target="_blank"><strong>Practice Questions for Quizzes</strong></a>
-<ul>
-<li><p>Includes a Quarto (<code>.qmd</code>) file for Quiz 2 Practice Questions</p></li>
-<li><p>if you have already saved this R project, use this link: <a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a></p></li>
-<li><p>Your saved file with your work will be in your account.</p></li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_9hwp3ewf/387188682" target="_blank"><strong>VIDEO - Lecture 22 - 2025-11-06 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 20 - Introduction to Correlation and Covariance</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1239229" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1239230" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1CvWpRPqul2sx2PI121_ryCa0P_cV8jRc/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_pq0muk4u/387188682" target="_blank"><strong>VIDEO - Lecture 20 - 2025-10-30 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 19 - Contingency Tables and Two Sample Tests of Proportions</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1238251" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1238253" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1Ra-ivkv6cN8UlZLvQCpKjzEDGzn0c9tD/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_h93j0132/387188682" target="_blank"><strong>VIDEO - Lecture 19 - 2025-10-28 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 18 - Two Sample t-Tests and Confidence Intervals</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1236174" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1236179" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1bxnZjFgGjISe0zjIeja2Kmr4Lx7EKWa4/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_gu072tiw/387188682" target="_blank"><strong>VIDEO - Lecture 18 - 2025-10-23 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 17 - Language of Hypothesis Testing/One Sample t-tests</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1235312" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1235311" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1XujkJNFOnC7viS_VqTQA_6Bl09RradHz/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_l28queue/387188682" target="_blank"><strong>VIDEO - Lecture 17 - 2025-10-21 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<strong>Estimates and Confidence</strong>
-<br>
-<ul>
-<li><strong>Lecture 16 - Proportions, Percentages and Confidence Intervals</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1232622" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1232623" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1rIuwLPW90rioY-2A-B1ksXDGg27s8wSh/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1-YnYJbk-5S5AmLs1VYovg-rxnoht3hS_/view?usp=sharing" target="_blank"><strong>t-Table</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_dzvjyzw4/387188682" target="_blank"><strong>VIDEO - Lecture 16 - 2025-10-16 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 14 - Effect of Sample Size and Confidence level on Confidence Intervals</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1229841" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1229843" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1QTKUEHi59h-ufQ5PVbTdssKj1wabyERf/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1-YnYJbk-5S5AmLs1VYovg-rxnoht3hS_/view?usp=sharing" target="_blank"><strong>t-Table</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><p><a href="https://video.syr.edu/media/t/1_p9jg8crx/387188682" target="_blank"><strong>VIDEO - Lecture 14 - 2025-10-09 - 11:00 AM</strong></a> - Recording is watchable, but audio issues occurred which will be resolved before the next lecture. Please let me know if you have questions.</p></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 13 - Intro. to the t Distribution and Confidence Intervals</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1229168" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1229172" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1HpmiXjRTZ4JCjx1dAbog_gWuhTHIhw6y/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Your saved file with your work will be in your account.</li>
-</ul></li>
-<li><a href="https://video.syr.edu/media/t/1_eav05x7l/387188682" target="_blank"><strong>VIDEO - Lecture 13 - 2025-10-07 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-</div>
-</div>
-<div id="lectures-21-29" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-lectures-21-29">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 35fr) minmax(3em, 65fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
-<p><a href="https://posit.cloud/content/11322437" target="_blank"><strong>MAS 261 Student Files for Lectures 21-28 - R Project on Posit Cloud</strong></a> - Click link to open file in your Posit Cloud and save it. Once file is saved to your account, you should not click this link again.</p>
-<ul>
-<li>Note: To make formatted tables in your .qmd more visible in the file output, add the following text after <strong><code>kable() |&gt; kable_styling(full_width = F)</code></strong></li>
-</ul>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
-<p><a href="https://pollev.com/penelopepoolereisenbies685" target="_blank" style="color: lightgreen"><strong><em>Poll Everywhere</em></strong></a> - My User Name: <strong>penelopepoolereisenbies685</strong></p>
-<strong>This website was last updated on Monday, February 02, 2026.</strong>
-<br>
-<ul>
-<li><strong>Lecture 29 - Review for Final Exam</strong>
-<ul>
-<li><p>In this lecture, we will go through practice questions from previous tests and I will answer questions and provide guidance to help students prepare for the MAS 261 Final Exam.</p></li>
-<li><p>There will be Poll Everywhere questions throughout the lecture.</p></li>
-<li><a href="https://video.syr.edu/media/t/1_ybsjly4f/387188682" target="_blank"><strong>VIDEO - Lecture 29 - 2025-12-09 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<strong>Linear relationships</strong>
-<br>
-<ul>
-<li><strong>Lecture 28 - Review of Material on Linear Relationships</strong>
-<ul>
-<li><p>In class today we will go through the final set of practice questions to review the concepts from this section of the course.</p></li>
-<li><p>There will be Poll Everywhere questions throughout the lecture.</p></li>
-<li><a href="https://video.syr.edu/media/t/1_pzab6e1h/387188682" target="_blank"><strong>VIDEO - Lecture 28 - 2025-12-04 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 27 - Introduction to Linear Transformations</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1253624" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1253626" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1Y48deDOVxyKr7PQWAHy2xgqM4ZNfn7-0/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="http://coursefeedback.syr.edu/" target="_blank"><strong>Course Evaluations</strong></a></li>
-<li><a href="https://video.syr.edu/media/t/1_8cz95w06/387188682" target="_blank"><strong>VIDEO - Lecture 27 - 2025-12-02 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 26 - Multiple Linear Regression</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1252678" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1252679" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1vVLQ4qVJBsQQgV0axE3lJAi8zbi9swQy/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://video.syr.edu/media/t/1_gujlzyt0/387188682" target="_blank"><strong>VIDEO - Lecture 26 - 2025-11-20 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 25 - Simple Linear Regression Continued</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1247035" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1247033" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1v-JYJh1Xx147UQUtK4JUJMnZoJnJwyhu/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li>NOTES:
-<ul>
-<li><p>This lecture was recorded with no audio. I have checked my microphones and I will review the key details during Lecture 26.<br>
-</p></li>
-<li><p>I am also positing last year’s recording below.<br>
-</p></li>
-<li><p>In 2024, I used a different in-class polling system so the questions in the video will appear differently than those given in in class in</p>
-<ol start="2025" type="1">
-<li></li>
-</ol></li>
-<li><a href="https://video.syr.edu/media/t/1_10lktgyr/354195742" target="_blank"><strong>VIDEO - Lecture 25 - 2024-11-19 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 24 - Introduction to Simple Linear Regression</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1245145" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1245147" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1ztx45iKyfybZGIp8iI8NrWn_k5uHzk6N/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><strong>Lecture 21 - Introduction to Portfolio Management</strong>
-<ul>
-<li><a href="https://rpubs.com/PeneLope_PE/1241207" target="_blank"><strong>Slides</strong></a></li>
-<li><a href="https://rpubs.com/PeneLope_PE/1241208" target="_blank"><strong>Notes</strong></a></li>
-<li><a href="https://drive.google.com/file/d/1-IfsrZvPQ9vAZsGdJWSzhQaMbGVdfBwC/view?usp=sharing" target="_blank"><strong>PDF</strong></a></li>
-<li><a href="https://video.syr.edu/media/t/1_rwk0depj/387188682" target="_blank"><strong>VIDEO - Lecture 21 - 2025-11-04 - 11:00 AM</strong></a></li>
-</ul></li>
-</ul>
-<br>
+<strong>This website was last updated on Saturday, August 22, 2026.</strong>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -671,148 +316,21 @@ grid-auto-rows: minmax(0, 1fr);">
 </div>
 </div>
 <div id="homework-assignments" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-homework-assignments">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
-<a href="https://posit.cloud/content/8556337" target="_blank"><strong>Homework Assignments 2-4 - R Project on Posit Cloud</strong></a>
-<a href="https://posit.cloud/content/8939046" target="_blank"><strong>Homework Assignments 5-7 - R Project on Posit Cloud</strong></a>
-<a href="https://posit.cloud/content/9243762" target="_blank"><strong>Homework Assignments 8-9 - R Project on Posit Cloud</strong></a>
-<br>
-<ul>
-<li><p>There is an R Quarto (<code>.qmd</code>) file for each Homework Assignment that will help you answer the questions in the associated Blackboard assignment.</p></li>
-<li><p>Demo Videos will be posted to assist you.</p></li>
-</ul>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_tbbw7fns/" target="_blank"><strong>HW 9 - Demo Video Playlist</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Once you download the project above, your saved file with your work will be in your account.</li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_9x5lkesk/" target="_blank"><strong>HW 8 - Demo Video Playlist</strong></a>
-<ul>
-<li><strong>NOTES:</strong>
-<ul>
-<li>This video playlist was recorded in November of 2024, and the stock adjusted-closing values have changed slightly since then.</li>
-<li>The Blackboard solutions match the updated stock adjusted-closing values, BUT the values shown in the demo videos for some of the questions about stock data are slightly out of date.</li>
-</ul></li>
-</ul></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Once you download the project above, your saved file with your work will be in your account.</li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_myw14zfc/" target="_blank"><strong>HW 7 - Demo Video Playlist</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Once you download the project above, your saved file with your work will be in your account.</li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_uolm433j/" target="_blank"><strong>HW 6 - Demo Video Playlist</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Once you download the project above, your saved file with your work will be in your account.</li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_8etuc8lm/" target="_blank"><strong>HW 5 - Demo Video Playlist</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Once you download the project above, your saved file with your work will be in your account.</li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_1jrmlwp2/" target="_blank"><strong>HW 4 - Demo Video Playlist</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Once you download the project above, your saved file with your work will be in your account.</li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_rlqsbmty/" target="_blank"><strong>HW 3 - Demo Video Playlist</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Once you download the project above, your saved file with your work will be in your account.</li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_3dpa5815/" target="_blank"><strong>HW 2 - Demo Video Playlist</strong></a></li>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a>
-<ul>
-<li>Once you download the project above, your saved file with your work will be in your account.</li>
-</ul></li>
-</ul>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-</div>
-</div>
-<div id="practice-questions" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-practice-questions">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
-<p><a href="https://posit.cloud/content/8813807" target="_blank"><strong>Practice Questions for Quizzes</strong></a> - Accompanying Questions are on Blackboard.</p>
+<strong>The link for the R Project with assignments files for Homework Assignments 2-5 will be posted on Tuesday, August 25th.</strong>
+<br>
+<strong>The link for the R Project with assignments files for Homework Assignments 6-9 will be posted before HW 6 is assigned.</strong>
 <br>
 <ul>
-<li><a href="https://posit.cloud/" target="_blank"><strong>Posit Cloud</strong></a> - Once you download the project above, your saved file with your work will be in your account.</li>
+<li>There is an R Quarto (<code>.qmd</code>) file for each Homework Assignment that will help you answer the questions in the associated Blackboard assignment.</li>
 </ul>
 <br>
 <ul>
-<li><p>There are <strong>four</strong> Quarto (<code>.qmd</code>) files in this R project. Practice Questions for:</p>
-<ul>
-<li><p>Quiz 1 - Part 1</p></li>
-<li><p>Quiz 1 - Part 2</p></li>
-<li><p>Quiz 2</p></li>
-<li><p>Linear Relationships</p></li>
-</ul></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_zi2w2zvd/" target="_blank"><strong>Practice Questions - Linear Relationships - Demo Video Playlist</strong></a></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_tk1mb1r6/" target="_blank"><strong>Quiz 2 Practice Questions - Demo Video Playlist</strong></a></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_k2wn9ozy/" target="_blank"><strong>Quiz 1 Practice Questions - Part 1 - Demo Video Playlist</strong></a></li>
-</ul>
-<br>
-<ul>
-<li><a href="https://video.syr.edu/playlist/dedicated/352723432/1_pbwijs9w/" target="_blank"><strong>Quiz 1 Practice Questions - Part 2 - Demo Video Playlist</strong></a></li>
+<li>Demo Videos will be posted to assist you.</li>
 </ul>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
@@ -854,7 +372,7 @@ grid-auto-rows: minmax(0, 1fr);">
 <li><a href="https://video.syr.edu/media/t/1_m775pb4g/352723432" target="_blank"><strong>Video Demo for downloading and installing R on a Windows OS</strong></a></li>
 <li><p>Mac installation is similar.</p></li>
 <li><p>If you do not need to uninstall an out-of-date version of R, skip to 0:53.</p></li>
-<li><p>The current version of R is <strong><code>4.5.2</code></strong>.</p></li>
+<li><p>The current version of R is <strong><code>4.6.1</code></strong>.</p></li>
 </ul>
 <br>
 <strong>Downloading and Installing RStudio</strong>
@@ -864,7 +382,7 @@ grid-auto-rows: minmax(0, 1fr);">
 <li><p>Mac installation is similar.</p></li>
 <li><p>If you do not need to uninstall an out-of-date version of RStudio, skip to 0:56.</p></li>
 <li><p>The version shown in the video is from August of 2024 and is out-of-date.</p></li>
-<li><p>The current version of RStudio is <strong><code>2026.1.0.392</code></strong>.</p></li>
+<li><p>The current version of RStudio is <strong><code>2026.8.1.195</code></strong>.</p></li>
 </ul>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
