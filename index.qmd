@@ -135,18 +135,20 @@ AI**](https://www.nytimes.com/2025/06/18/learning/we-need-to-chat-gpt.html?smid=
 
 ## Row {height="45%"}
 
-**The link for the R Project with MAS 261 Student Files for Lectures 1-14 will be posted on Monday, Agust 24th, 2026**
+**The link for the R Project with MAS 261 Student Files for
+Lectures 1-14 will be posted on Monday, August 24th, 2026**
 
 <br>
 
 - [**VIDEO - Creating a FREE Posit Cloud
   Account**](https://video.syr.edu/media/t/1_a0qm1usm/352723432){target="_blank"}
-  
+
 <br>
 
 - Note: To make formatted tables in your .qmd more visible
-  in the file output add the following text after  **`kable()`**
-  
+  in the file output add the following text after
+  **`kable()`**
+
   - **`|> kable_styling(full_width = F)`**
 
 ## Row {height="55%"}
@@ -164,17 +166,21 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Slides and notes for Lecture 1 will be posted on August 24, 2026.**
+
 # Lectures 16-26
 
 ## Row {height="35%"}
 
-**The link for the R Project with MAS 261 Student Files for Lectures 16-26 will be posted before Lecture 16.**
+**The link for the R Project with MAS 261 Student Files for
+Lectures 16-26 will be posted before Lecture 16.**
 
 <br>
 
 - Note: To make formatted tables in your .qmd more visible
-  in the file output add the following text after  **`kable()`**
-  
+  in the file output add the following text after
+  **`kable()`**
+
   - **`|> kable_styling(full_width = F)`**
 
 ## Row {height="65%"}
@@ -190,18 +196,22 @@ style="color: lightgreen"} - My User Name:
 
 ## Row
 
-**The link for the R Project with assignments files for Homework Assignments 2-5 will be posted on Tuesday, August 25th.**
+**The link for the R Project with assignments files for
+Homework Assignments 2-5 will be posted on Tuesday, August
+25th.**
 
 <br>
 
-**The link for the R Project with assignments files for Homework Assignments 6-9 will be posted before HW 6 is assigned.**
+**The link for the R Project with assignments files for
+Homework Assignments 6-9 will be posted before HW 6 is
+assigned.**
 
 <br>
 
 - There is an R Quarto (`.qmd`) file for each Homework
   Assignment that will help you answer the questions in the
   associated Blackboard assignment.
-  
+
 <br>
 
 - Demo Videos will be posted to assist you.
