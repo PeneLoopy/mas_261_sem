@@ -237,7 +237,7 @@ style="color: lightgreen"} - My User Name:
 
 - [**HW 2 Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_3dpa5815/){target="_blank"}
 
-  - This video playlist was created in the Fall of 2025.  If notice any issues, other than the incorrect '2023' label at the top of the assignment, please let me know.
+  - This video playlist was created in the fall of 2025.  If notice any issues, other than the incorrect '2023' label at the top of the assignment, please let me know.
 
 # Installing R and Rstudio
 
