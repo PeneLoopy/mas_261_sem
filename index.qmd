@@ -131,21 +131,27 @@ AI**](https://www.nytimes.com/2025/06/18/learning/we-need-to-chat-gpt.html?smid=
     R/RStudio, Python, Github and facilitates communication
     between open source software users on campus.
 
-# Lectures 1-14
+# Lectures 1-12
 
 ## Row {height="45%"}
 
-**The link for the R Project with MAS 261 Student Files for
-Lectures 1-14 will be posted on Monday, August 24th, 2026**
+[**MAS 261 Student Files for Lectures 1-12 - R Project on Posit Cloud**](https://posit.cloud/content/10735606){target="_blank"} - Click link to open file in your Posit Cloud and save it. Once file is saved to your account, you should not click this link again.
+
+**NOTE:**  These videos were created in the FALL of 2025 when the first section of the course was lectures 1-8 instead of lectures 1-12.
+
+- [**VIDEO - Creating a FREE Posit Cloud Account**](https://video.syr.edu/media/t/1_a0qm1usm/352723432){target="_blank"}
+  
+- [**VIDEO - Intro to Accessing Student Lecture R files in Posit Cloud**](https://video.syr.edu/media/t/1_btulm9h8/352723432){target="_blank"}
+
+- [**VIDEO - OPTIONAL Useful Modifications to the Global Options in RStudio**](https://video.syr.edu/media/t/1_bx1cmhms/352723432){target="_blank"}
+
+- [**VIDEO - Navigating an R File and Running Code in an R .qmd File in Posit Cloud**](https://video.syr.edu/media/t/1_0pj3i35n/352723432){target="_blank"}
+
+- [**VIDEO - OPTIONAL - Rendering and Printing an R .qmd File in Posit Cloud**](https://video.syr.edu/media/t/1_b1kccc7t/352723432){target="_blank"}
 
 <br>
 
-- [**VIDEO - Creating a FREE Posit Cloud
-  Account**](https://video.syr.edu/media/t/1_a0qm1usm/352723432){target="_blank"}
-
-<br>
-
-- Note: To make formatted tables in your .qmd more visible
+**Note:** To make formatted tables in your .qmd more visible
   in the file output add the following text after
   **`kable()`**
 
@@ -166,7 +172,18 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
-- **Slides and notes for Lecture 1 will be posted on August 24, 2026.**
+- **Lecture 1 - Course Introductions and Types of Data**
+
+  - [**Slides**](https://019f90f0-8209-be03-a14e-6828de956e8b.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://019f90e4-1413-83dc-5528-35b3666f1bca.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1mbjjq4OMmBb81ELnYVK73EVp0nIowyX8/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your Posit Cloud account.
+      account.
 
 # Lectures 16-26
 
@@ -196,27 +213,31 @@ style="color: lightgreen"} - My User Name:
 
 ## Row
 
-**The link for the R Project with assignments files for
-Homework Assignments 2-5 will be posted on Tuesday, August
-25th.**
+[**Homework Assignments 2-5 - R Project on Posit Cloud**](https://posit.cloud/content/8556337){target="_blank"}
 
-<br>
-
-**The link for the R Project with assignments files for
-Homework Assignments 6-9 will be posted before HW 6 is
-assigned.**
-
-<br>
+- This R project is now available.
 
 - There is an R Quarto (`.qmd`) file for each Homework
   Assignment that will help you answer the questions in the
   associated Blackboard assignment.
+  
+- Demo videos will be posted to assist you.
+
+ - **NOTE:** The videos were created in 2025 when the first set of HW files was for assignments 2-4, not 2-5.
 
 <br>
 
-- Demo Videos will be posted to assist you.
-
 ## Row
+
+**HW 2** - Answer questions on Blackboard.
+
+- [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+  - Your saved file with your work will be in your account once you click the link for assignments 2-5 at the top of this page..
+
+- [**HW 2 Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_3dpa5815/){target="_blank"}
+
+  - This video playlist was created in the Fall of 2025.  If notice any issues, other than the incorrect '2023' label at the top of the assignment, please let me know.
 
 # Installing R and Rstudio
 

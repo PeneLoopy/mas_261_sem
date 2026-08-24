@@ -1,8 +1,8 @@
 - **Lecture 1 - Course Introductions and Types of Data**
 
-  - [**Slides**](https://rpubs.com/PeneLope_PE/1211541){target="_blank"}
+  - [**Slides**](https://019f90f0-8209-be03-a14e-6828de956e8b.share.connect.posit.cloud/){target="_blank"}
 
-  - [**Notes**](https://rpubs.com/PeneLope_PE/1211543){target="_blank"}
+  - [**Notes**](https://019f90e4-1413-83dc-5528-35b3666f1bca.share.connect.posit.cloud/){target="_blank"}
 
   - [**PDF**](https://drive.google.com/file/d/1mbjjq4OMmBb81ELnYVK73EVp0nIowyX8/view?usp=sharing){target="_blank"}
 
