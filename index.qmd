@@ -188,6 +188,16 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Lecture 2 - Measures of Central Tendancy**
+
+  - [**Slides**](https://01a03f56-6aaf-a26f-6266-36ec26184118.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a03f65-fa01-b190-d06e-88003610f991.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1B7X9kvma8Tfdrj1jkJmurekhhTH8rKll/view?usp=sharing){target="_blank"}
+
+<br>
+
 - **Lecture 1 - Course Introductions and Types of Data**
 
   - [**Slides**](https://019f90f0-8209-be03-a14e-6828de956e8b.share.connect.posit.cloud/){target="_blank"}
