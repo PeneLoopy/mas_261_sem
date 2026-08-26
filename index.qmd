@@ -135,27 +135,43 @@ AI**](https://www.nytimes.com/2025/06/18/learning/we-need-to-chat-gpt.html?smid=
 
 ## Row {height="45%"}
 
-[**MAS 261 Student Files for Lectures 1-12 - R Project on Posit Cloud**](https://posit.cloud/content/10735606){target="_blank"} - Click link to open file in your Posit Cloud and save it. Once file is saved to your account, you should not click this link again.
+[**MAS 261 Student Files for Lectures 1-12 - R Project on
+Posit
+Cloud**](https://posit.cloud/content/10735606){target="_blank"} -
+Click link to open file in your Posit Cloud and save it.
+Once file is saved to your account, you should not click
+this link again.
 
-**NOTE:**  These videos were created in the FALL of 2025 when the first section of the course was lectures 1-8 instead of lectures 1-12.
+**NOTE:** These videos were created in the FALL of 2025 when
+the first section of the course was lectures 1-8 instead of
+lectures 1-12.
 
-- [**VIDEO - Creating a FREE Posit Cloud Account**](https://video.syr.edu/media/t/1_a0qm1usm/352723432){target="_blank"}
-  
-- [**VIDEO - Intro to Accessing Student Lecture R files in Posit Cloud**](https://video.syr.edu/media/t/1_btulm9h8/352723432){target="_blank"}
+- [**VIDEO - Creating a FREE Posit Cloud
+  Account**](https://video.syr.edu/media/t/1_a0qm1usm/352723432){target="_blank"}
 
-- [**VIDEO - OPTIONAL Useful Modifications to the Global Options in RStudio**](https://video.syr.edu/media/t/1_bx1cmhms/352723432){target="_blank"}
+- [**VIDEO - Intro to Accessing Student Lecture R files in
+  Posit
+  Cloud**](https://video.syr.edu/media/t/1_btulm9h8/352723432){target="_blank"}
 
-- [**VIDEO - Navigating an R File and Running Code in an R .qmd File in Posit Cloud**](https://video.syr.edu/media/t/1_0pj3i35n/352723432){target="_blank"}
+- [**VIDEO - OPTIONAL Useful Modifications to the Global
+  Options in
+  RStudio**](https://video.syr.edu/media/t/1_bx1cmhms/352723432){target="_blank"}
 
-- [**VIDEO - OPTIONAL - Rendering and Printing an R .qmd File in Posit Cloud**](https://video.syr.edu/media/t/1_b1kccc7t/352723432){target="_blank"}
+- [**VIDEO - Navigating an R File and Running Code in an R
+  .qmd File in Posit
+  Cloud**](https://video.syr.edu/media/t/1_0pj3i35n/352723432){target="_blank"}
+
+- [**VIDEO - OPTIONAL - Rendering and Printing an R .qmd
+  File in Posit
+  Cloud**](https://video.syr.edu/media/t/1_b1kccc7t/352723432){target="_blank"}
 
 <br>
 
 **Note:** To make formatted tables in your .qmd more visible
-  in the file output add the following text after
-  **`kable()`**
+in the file output add the following text after
+**`kable()`**
 
-  - **`|> kable_styling(full_width = F)`**
+- **`|> kable_styling(full_width = F)`**
 
 ## Row {height="55%"}
 
@@ -182,8 +198,9 @@ style="color: lightgreen"} - My User Name:
 
   - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
-    - Your saved file with your work will be in your Posit Cloud account.
-      account.
+    - Your saved file with your work will be in your Posit
+      Cloud account. account.
+  - **Video Recording** - [**Lecture 1 - 2026-08-25 - 11:00 AM**](https://video.syr.edu/media/t/1_5ubaz7na/416621482){target="_blank"}
 
 # Lectures 16-26
 
@@ -213,17 +230,19 @@ style="color: lightgreen"} - My User Name:
 
 ## Row
 
-[**Homework Assignments 2-5 - R Project on Posit Cloud**](https://posit.cloud/content/8556337){target="_blank"}
+[**Homework Assignments 2-5 - R Project on Posit
+Cloud**](https://posit.cloud/content/8556337){target="_blank"}
 
 - This R project is now available.
 
 - There is an R Quarto (`.qmd`) file for each Homework
   Assignment that will help you answer the questions in the
   associated Blackboard assignment.
-  
+
 - Demo videos will be posted to assist you.
 
- - **NOTE:** The videos were created in 2025 when the first set of HW files was for assignments 2-4, not 2-5.
+- **NOTE:** The videos were created in 2025 when the first
+  set of HW files was for assignments 2-4, not 2-5.
 
 <br>
 
@@ -233,11 +252,16 @@ style="color: lightgreen"} - My User Name:
 
 - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
-  - Your saved file with your work will be in your account once you click the link for assignments 2-5 at the top of this page..
+  - Your saved file with your work will be in your account
+    once you click the link for assignments 2-5 at the top
+    of this page..
 
-- [**HW 2 Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_3dpa5815/){target="_blank"}
+- [**HW 2 Demo Video
+  Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_3dpa5815/){target="_blank"}
 
-  - This video playlist was created in the fall of 2025.  If notice any issues, other than the incorrect '2023' label at the top of the assignment, please let me know.
+  - This video playlist was created in the fall of 2025. If
+    notice any issues, other than the incorrect '2023' label
+    at the top of the assignment, please let me know.
 
 # Installing R and Rstudio
 
