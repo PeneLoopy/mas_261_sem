@@ -195,11 +195,14 @@ style="color: lightgreen"} - My User Name:
   - [**Notes**](https://01a03f65-fa01-b190-d06e-88003610f991.share.connect.posit.cloud/){target="_blank"}
 
   - [**PDF**](https://drive.google.com/file/d/1B7X9kvma8Tfdrj1jkJmurekhhTH8rKll/view?usp=sharing){target="_blank"}
-  
+
   - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
     - Your saved file with your work will be in your Posit
       Cloud account. account.
+      
+  - **Video Recording** - [**Lecture 2 - 2026-08-27 - 11:00
+    AM**](https://video.syr.edu/media/t/1_yrnpssgn/416621482){target="_blank"}
 
 <br>
 
