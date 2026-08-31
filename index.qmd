@@ -188,6 +188,21 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Lecture 3 - Measures of Variability**
+
+  - [**Slides**](https://01a0597c-f894-2c71-a9b3-2d737452b3c2.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a0597d-e200-dedf-a608-a505d262a8a3.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1o5O5NY2gcX0oDGzniBb_cQJdGEZCRZPn/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 - **Lecture 2 - Measures of Central Tendancy**
 
   - [**Slides**](https://01a03f56-6aaf-a26f-6266-36ec26184118.share.connect.posit.cloud/){target="_blank"}
@@ -200,7 +215,7 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your Posit
       Cloud account. account.
-      
+
   - **Video Recording** - [**Lecture 2 - 2026-08-27 - 11:00
     AM**](https://video.syr.edu/media/t/1_yrnpssgn/416621482){target="_blank"}
 
