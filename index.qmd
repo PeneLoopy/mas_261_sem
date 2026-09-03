@@ -188,6 +188,21 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Lecture 4 - Data Visualizations, Boxplots, Outliers**
+
+  - [**Slides**](https://01a0650d-7ac4-ded4-bce9-a86f9cf8526d.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a06518-533e-790e-2fa6-6d3cbd0847eb.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1o63tDFhCWLqsbHvsSp2o-yZ2FXAz58Py/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 - **Lecture 3 - Measures of Variability**
 
   - [**Slides**](https://01a0597c-f894-2c71-a9b3-2d737452b3c2.share.connect.posit.cloud/){target="_blank"}
@@ -200,9 +215,11 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
+
   - **Video Recording** - [**Lecture 3 - 2026-09-01 - 11:00
-    AM**](https://video.syr.edu/media/t/1_ds2ol5t4/416621482){target="_blank"} - NOTE: The audio of the 09-01 recording is a little muffled at times.
+    AM**](https://video.syr.edu/media/t/1_ds2ol5t4/416621482){target="_blank"} -
+    NOTE: The audio of the 09-01 recording is a little
+    muffled at times.
 
 <br>
 
