@@ -188,6 +188,22 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Lecture 5 - Visualizing Categorical and Quantitative
+  Data**
+
+  - [**Slides**](https://01a07d49-9199-6084-1fc2-d333297adce1.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a07d51-faa2-d0ae-8921-e11eb99591a9.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1ugev0bGNZU1_fR4qUDkydQhEgG3hRTY5/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 - **Lecture 4 - Data Visualizations, Boxplots, Outliers**
 
   - [**Slides**](https://01a0650d-7ac4-ded4-bce9-a86f9cf8526d.share.connect.posit.cloud/){target="_blank"}
@@ -200,7 +216,7 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
+
   - **Video Recording** - [**Lecture 4 - 2026-09-03 - 11:00
     AM**](https://video.syr.edu/media/t/1_ds2ol5t4/416621482){target="_blank"}
 
