@@ -184,6 +184,25 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+**Data Distributions**
+
+<br>
+
+- **Lecture 6 - Introduction to the Normal Distribution**
+
+  - [**Slides**](https://01a087c4-7a63-2c06-e28c-5e88b15c3128.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a087ce-a0c6-af89-1535-be5d886aaf77.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1ujIhyPile-Zu-dhTfkQD5zVdNz-T5mq2/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 **Describing Data**
 
 <br>
@@ -201,6 +220,9 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
+      
+  - **Video Recording** - [**Lecture 5 - 2026-09-08 - 11:00
+    AM**](https://video.syr.edu/media/t/1_l826q3cv/416621482){target="_blank"}
 
 <br>
 
@@ -330,7 +352,8 @@ Cloud**](https://posit.cloud/content/8556337){target="_blank"}
     once you click the link for assignments 2-5 at the top
     of this page..
 
-- [**HW 3 Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_rlqsbmty/){target="_blank"}
+- [**HW 3 Demo Video
+  Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_rlqsbmty/){target="_blank"}
 
   - This video playlist was created in the fall of 2025. If
     notice any issues, other than the incorrect '2023' label
