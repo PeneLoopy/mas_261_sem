@@ -200,6 +200,9 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
+      
+  - **Video Recording** - [**Lecture 6 - 2026-09-10 - 11:00
+    AM**](https://video.syr.edu/media/t/1_3rtihvyj/416621482){target="_blank"}
 
 <br>
 
@@ -220,7 +223,7 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
+
   - **Video Recording** - [**Lecture 5 - 2026-09-08 - 11:00
     AM**](https://video.syr.edu/media/t/1_l826q3cv/416621482){target="_blank"}
 
