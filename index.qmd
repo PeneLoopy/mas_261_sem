@@ -188,6 +188,21 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Lecture 7 - Empirical Rule / Finding X from a Probability**
+
+  - [**Slides**](https://01a09d55-a706-194e-149a-779a0757ed9d.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a09d58-fb08-6d6d-360d-fadde118ca4f.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1-29uIhO6YSI_jGL8472QZx99xQ1WdxH-/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 - **Lecture 6 - Introduction to the Normal Distribution**
 
   - [**Slides**](https://01a087c4-7a63-2c06-e28c-5e88b15c3128.share.connect.posit.cloud/){target="_blank"}
@@ -200,7 +215,7 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
+
   - **Video Recording** - [**Lecture 6 - 2026-09-10 - 11:00
     AM**](https://video.syr.edu/media/t/1_3rtihvyj/416621482){target="_blank"}
 
@@ -210,8 +225,7 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
-- **Lecture 5 - Visualizing Categorical and Quantitative
-  Data**
+- **Lecture 5 - Visualizing Categorical and Quantitative Data**
 
   - [**Slides**](https://01a07d49-9199-6084-1fc2-d333297adce1.share.connect.posit.cloud/){target="_blank"}
 
