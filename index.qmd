@@ -188,7 +188,8 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
-- **Lecture 7 - Empirical Rule / Finding X from a Probability**
+- **Lecture 7 - Empirical Rule / Finding X from a
+  Probability**
 
   - [**Slides**](https://01a09d55-a706-194e-149a-779a0757ed9d.share.connect.posit.cloud/){target="_blank"}
 
@@ -225,7 +226,8 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
-- **Lecture 5 - Visualizing Categorical and Quantitative Data**
+- **Lecture 5 - Visualizing Categorical and Quantitative
+  Data**
 
   - [**Slides**](https://01a07d49-9199-6084-1fc2-d333297adce1.share.connect.posit.cloud/){target="_blank"}
 
@@ -360,6 +362,18 @@ Cloud**](https://posit.cloud/content/8556337){target="_blank"}
 <br>
 
 ## Row
+
+**HW 4** - Answer questions on Blackboard.
+
+- [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+  - Your saved file with your work will be in your account
+    once you click the link for assignments 2-5 at the top
+    of this page..
+
+- [**HW 4 Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_1jrmlwp2/){target="_blank"}
+
+<br>
 
 **HW 3** - Answer questions on Blackboard.
 
