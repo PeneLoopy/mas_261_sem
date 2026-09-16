@@ -188,6 +188,21 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Lecture 8 - Sampling Distribution of the Sample Mean / CLT**
+
+  - [**Slides**](https://01a0abdd-0272-a36b-d3f6-fe38ffe04ad0.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a0abdf-5ead-90c2-78aa-69ebb84bec22.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1-8uq_NN7POxSsgKovo-i9USFuAFORYFV/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 - **Lecture 7 - Empirical Rule / Finding X from a
   Probability**
 
@@ -201,6 +216,9 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
+      
+  - **Video Recording** - [**Lecture 7 - 2026-09-15 - 11:00
+    AM**](https://video.syr.edu/media/t/1_h1aglf82/416621482){target="_blank"}
 
 <br>
 
@@ -371,7 +389,8 @@ Cloud**](https://posit.cloud/content/8556337){target="_blank"}
     once you click the link for assignments 2-5 at the top
     of this page..
 
-- [**HW 4 Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_1jrmlwp2/){target="_blank"}
+- [**HW 4 Demo Video
+  Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_1jrmlwp2/){target="_blank"}
 
 <br>
 
