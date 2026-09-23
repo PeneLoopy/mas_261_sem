@@ -188,8 +188,22 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
-- **Lecture 8 - Sampling Distribution of the Sample Mean /
-  CLT**
+- **Lecture 10 - Central Limit Theorem / Saving R files and Creating Notes**
+
+  - [**Slides**](https://01a0cfaf-b1a6-05ef-4bed-00cba427c5b6.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a0cfb0-6ae5-1525-082c-5260aeee1adf.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/16hIN17bSFG2-TdlcR2gubnPrlflcSVjp/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
+- **Lecture 8 - Sampling Distribution of the Sample Mean / CLT**
 
   - [**Slides**](https://01a0abdd-0272-a36b-d3f6-fe38ffe04ad0.share.connect.posit.cloud/){target="_blank"}
 
@@ -201,7 +215,7 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
+
   - **Video Recording** - [**Lecture 8 - 2026-09-17 - 11:00
     AM**](https://video.syr.edu/media/t/1_mrpyrez5/416621482){target="_blank"}
 
