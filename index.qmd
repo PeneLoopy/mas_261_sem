@@ -188,6 +188,21 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Lecture 12 - Effect of Sample Size and Confidence level on Confidence Intervals**
+
+  - [**Slides**](https://01a0f409-473a-cb87-85df-7ba3240c1bff.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a0f455-b116-846c-440a-fd6aebb89658.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1UwhVKyZlKIcdYLIoZ8-5vBu732FLVpvO/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 - **Lecture 11 - Intro. to the t Distribution and Confidence Intervals**
 
   - [**Slides**](https://01a0eac0-b376-870e-7b3c-eb4f24ff23be.share.connect.posit.cloud/){target="_blank"}
@@ -200,7 +215,8 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-
+      
+  - **Video Recording** - [**Lecture 11 - 2026-09-29 - 11:00 AM**](https://video.syr.edu/media/t/1_wg95bl4j/416621482){target="_blank"}
 
 **Data Distributions**
 
@@ -219,8 +235,9 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
-  - **Video Recording** - [**Lecture 10 - 2026-09-24 - 11:00 AM**](https://video.syr.edu/media/t/1_4xaqp4k8/416621482){target="_blank"}
+
+  - **Video Recording** - [**Lecture 10 - 2026-09-24 - 11:00
+    AM**](https://video.syr.edu/media/t/1_4xaqp4k8/416621482){target="_blank"}
 
 <br>
 
@@ -472,11 +489,15 @@ Cloud**](https://posit.cloud/content/8556337){target="_blank"}
 
 **Midterm Exam**
 
-- [**Practice Questions for Midterm Exam - R Project on Posit Cloud**](https://posit.cloud/content/8813807){target="_blank"}
+- [**Practice Questions for Midterm Exam - R Project on
+  Posit
+  Cloud**](https://posit.cloud/content/8813807){target="_blank"}
+  
+- **NOTE:**  These videos are adapted from last year's practice questions when there were two midterm tests (quizzes). Please ignore headings at the top that say Quiz 1 Practice Questions or Quiz 2 Practice Questions
 
-- Demo Videos will be posted by Thursday, 10/1.
+   - [**Midterm - Practice Set 1 - Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_k2wn9ozy/){target="_blank"}
 
-
+   - [**Midterm - Practice Set 2 - Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_pbwijs9w/){target="_blank"}
 
 # Installing R and Rstudio
 
