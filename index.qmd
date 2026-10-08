@@ -58,8 +58,7 @@ Site**](https://blackboard.syracuse.edu/ultra/courses/_567317_1/outline){target=
 - Engagement Questions, Assignments, and Tests will be
   submitted on Blackboard.
 
-[**Posit Cloud Signup
-Page**](https://posit.cloud/plans/free){target="_blank"}
+[**Posit Cloud Signup Page**](https://posit.cloud/plans/free){target="_blank"}
 
 - Use this link to sign up for a **FREE** Posit Cloud
   account.
