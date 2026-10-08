@@ -131,7 +131,7 @@ AI**](https://www.nytimes.com/2025/06/18/learning/we-need-to-chat-gpt.html?smid=
     R/RStudio, Python, Github and facilitates communication
     between open source software users on campus.
 
-# Lectures 1-12
+# Lectures 1-14
 
 ## Row {height="45%"}
 
@@ -184,6 +184,28 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Lecture 14 - Review for Midterm - Part 2 and R/Posit
+  Cloud Skills**
+
+  - Review of Practice Questions for Midterm - Part 2 AND
+    Answering Questions about Midterm - Part 1
+
+  - Lecture will include some Poll Everywhere Questions from
+    the Practice Questions
+
+  - Downloading and uploading files on Posit Cloud
+
+  - Rendering and Editing files to create Notes
+
+    - Students should also review Homework Assignments.
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 **Estimates and Confidence**
 
 <br>
@@ -201,10 +223,10 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
-  - **There is no video recording for this lecture due to an audio malfunction.** 
-  
-  
+
+  - **There is no video recording for this lecture due to an
+    audio malfunction.**
+
 <br>
 
 - **Lecture 11 - Intro. to the t Distribution and Confidence
@@ -221,7 +243,8 @@ style="color: lightgreen"} - My User Name:
     - Your saved file with your work will be in your
       account.
 
-  - **Video Recording** - [**Lecture 11 - 2026-09-29 - 11:00 AM**](https://video.syr.edu/media/t/1_wg95bl4j/416621482){target="_blank"}
+  - **Video Recording** - [**Lecture 11 - 2026-09-29 - 11:00
+    AM**](https://video.syr.edu/media/t/1_wg95bl4j/416621482){target="_blank"}
 
 **Data Distributions**
 
@@ -241,7 +264,8 @@ style="color: lightgreen"} - My User Name:
     - Your saved file with your work will be in your
       account.
 
-  - **Video Recording** - [**Lecture 10 - 2026-09-24 - 11:00 AM**](https://video.syr.edu/media/t/1_4xaqp4k8/416621482){target="_blank"}
+  - **Video Recording** - [**Lecture 10 - 2026-09-24 - 11:00
+    AM**](https://video.syr.edu/media/t/1_4xaqp4k8/416621482){target="_blank"}
 
 <br>
 
