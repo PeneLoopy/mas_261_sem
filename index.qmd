@@ -58,7 +58,8 @@ Site**](https://blackboard.syracuse.edu/ultra/courses/_567317_1/outline){target=
 - Engagement Questions, Assignments, and Tests will be
   submitted on Blackboard.
 
-[**Posit Cloud Signup Page**](https://posit.cloud/plans/free){target="_blank"}
+[**Posit Cloud Signup
+Page**](https://posit.cloud/plans/free){target="_blank"}
 
 - Use this link to sign up for a **FREE** Posit Cloud
   account.
@@ -202,7 +203,7 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
+
   - **Video Recording** - [**Lecture 14 - 2026-10-08 - 11:00
     AM**](https://video.syr.edu/media/t/1_dzcq2oyl/416621482){target="_blank"}
 
@@ -220,6 +221,8 @@ style="color: lightgreen"} - My User Name:
   - [**Notes**](https://01a0f455-b116-846c-440a-fd6aebb89658.share.connect.posit.cloud/){target="_blank"}
 
   - [**PDF**](https://drive.google.com/file/d/1UwhVKyZlKIcdYLIoZ8-5vBu732FLVpvO/view?usp=sharing){target="_blank"}
+  
+  - [**t-Table**](https://drive.google.com/file/d/1-YnYJbk-5S5AmLs1VYovg-rxnoht3hS_/view?usp=sharing){target="_blank"}
 
   - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
@@ -424,20 +427,32 @@ style="color: lightgreen"} - My User Name:
 
 # Lectures 16-26
 
-## Row {height="35%"}
+## Row {height="45%"}
 
-**The link for the R Project with MAS 261 Student Files for
-Lectures 16-26 will be posted before Lecture 16.**
+[**MAS 261 Student Files for Lectures 16-26 - R Project on Posit Cloud**](https://posit.cloud/content/8560110){target="_blank"} -
+Click link to open file in your Posit Cloud and save it.
+Once file is saved to your account, you should not click
+this link again.
+
+**NOTE:** These videos were created in the FALL of 2025 when
+the first section of the course was lectures 1-8 instead of
+lectures 1-12.
+
+- [**VIDEO - OPTIONAL Useful Modifications to the Global Options in RStudio**](https://video.syr.edu/media/t/1_bx1cmhms/352723432){target="_blank"}
+
+- [**VIDEO - OPTIONAL - Rendering and Printing an R .qmd
+  File in Posit
+  Cloud**](https://video.syr.edu/media/t/1_b1kccc7t/352723432){target="_blank"}
 
 <br>
 
-- Note: To make formatted tables in your .qmd more visible
-  in the file output add the following text after
-  **`kable()`**
+**Note:** To make formatted tables in your .qmd more visible
+in the file output add the following text after
+**`kable()`**
 
-  - **`|> kable_styling(full_width = F)`**
+- **`|> kable_styling(full_width = F)`**
 
-## Row {height="65%"}
+## Row {height="55%"}
 
 [***Poll
 Everywhere***](https://pollev.com/penelopepoolereisenbies685){target="_blank"
@@ -446,12 +461,37 @@ style="color: lightgreen"} - My User Name:
 
 **This website was last updated on `r today_fmt`.**
 
+<br>
+
+**Estimates and Confidence Continued**
+
+<br>
+
+- **Lecture 16 - Proportions, Percentages and Confidence
+  Intervals**
+
+  - [**Slides**](https://01a13c13-adea-fa53-e2f4-771ddd4fe8ba.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a13c19-1135-f928-c1b6-3fe4d41b0dcc.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1rIuwLPW90rioY-2A-B1ksXDGg27s8wSh/view?usp=sharing){target="_blank"}
+
+  - [**t-Table**](https://drive.google.com/file/d/1-YnYJbk-5S5AmLs1VYovg-rxnoht3hS_/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
 # Homework Assignments
 
 ## Row
 
-[**Homework Assignments 2-5 - R Project on Posit
-Cloud**](https://posit.cloud/content/8556337){target="_blank"}
+**The R Project for HW Assignments 6-9 will be posted on Tuesday, 10/20/26.**
+
+<br>
+
+[**Homework Assignments 2-5 - R Project on Posit Cloud**](https://posit.cloud/content/8556337){target="_blank"}
 
 - This R project is now available.
 
