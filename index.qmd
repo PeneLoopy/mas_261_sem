@@ -221,7 +221,7 @@ style="color: lightgreen"} - My User Name:
   - [**Notes**](https://01a0f455-b116-846c-440a-fd6aebb89658.share.connect.posit.cloud/){target="_blank"}
 
   - [**PDF**](https://drive.google.com/file/d/1UwhVKyZlKIcdYLIoZ8-5vBu732FLVpvO/view?usp=sharing){target="_blank"}
-  
+
   - [**t-Table**](https://drive.google.com/file/d/1-YnYJbk-5S5AmLs1VYovg-rxnoht3hS_/view?usp=sharing){target="_blank"}
 
   - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
@@ -429,7 +429,9 @@ style="color: lightgreen"} - My User Name:
 
 ## Row {height="45%"}
 
-[**MAS 261 Student Files for Lectures 16-26 - R Project on Posit Cloud**](https://posit.cloud/content/8560110){target="_blank"} -
+[**MAS 261 Student Files for Lectures 16-26 - R Project on
+Posit
+Cloud**](https://posit.cloud/content/8560110){target="_blank"} -
 Click link to open file in your Posit Cloud and save it.
 Once file is saved to your account, you should not click
 this link again.
@@ -438,7 +440,9 @@ this link again.
 the first section of the course was lectures 1-8 instead of
 lectures 1-12.
 
-- [**VIDEO - OPTIONAL Useful Modifications to the Global Options in RStudio**](https://video.syr.edu/media/t/1_bx1cmhms/352723432){target="_blank"}
+- [**VIDEO - OPTIONAL Useful Modifications to the Global
+  Options in
+  RStudio**](https://video.syr.edu/media/t/1_bx1cmhms/352723432){target="_blank"}
 
 - [**VIDEO - OPTIONAL - Rendering and Printing an R .qmd
   File in Posit
@@ -463,12 +467,26 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Lecture 17 - Language of Hypothesis Testing/One Sample t-tests**
+
+  - [**Slides**](https://01a1568d-f067-fb72-87b7-c8464ae70ed3.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a15690-f1ba-e200-124e-a6f46b014e20.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1XujkJNFOnC7viS_VqTQA_6Bl09RradHz/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 **Estimates and Confidence Continued**
 
 <br>
 
-- **Lecture 16 - Proportions, Percentages and Confidence
-  Intervals**
+- **Lecture 16 - Proportions, Percentages and Confidence Intervals**
 
   - [**Slides**](https://01a13c13-adea-fa53-e2f4-771ddd4fe8ba.share.connect.posit.cloud/){target="_blank"}
 
@@ -483,17 +501,24 @@ style="color: lightgreen"} - My User Name:
     - Your saved file with your work will be in your
       account.
 
+  - **Video Recording** - [**Lecture 16 - 2026-10-15 - 11:00 AM**](https://video.syr.edu/media/t/1_j8jhj4yh/416621482){target="_blank"}
+
 # Homework Assignments
 
 ## Row
 
-**The R Project for HW Assignments 6-9 will be posted on Tuesday, 10/20/26.**
+**The R Project for HW Assignments 6-9 will be posted on
+Tuesday, 10/20/26.**
 
 <br>
 
-[**Homework Assignments 2-5 - R Project on Posit Cloud**](https://posit.cloud/content/8556337){target="_blank"}
+[**Homework Assignments 2-5 - R Project on Posit
+Cloud**](https://posit.cloud/content/8556337){target="_blank"}
 
-- This R project is now available.
+[**Homework Assignments 6-9 - R Project on Posit
+Cloud**](https://posit.cloud/content/9243762){target="_blank"}
+
+- Both HW R projects are now available.
 
 - There is an R Quarto (`.qmd`) file for each Homework
   Assignment that will help you answer the questions in the
@@ -507,6 +532,19 @@ style="color: lightgreen"} - My User Name:
 <br>
 
 ## Row
+
+**HW 6** - Answer questions on Blackboard.
+
+- [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+  - Your saved file with your work will be in your account
+    once you click the link for assignments 6-10 at the top
+    of this page..
+
+- [**HW 6 Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_uolm433j/){target="_blank"}
+
+
+<br>
 
 **HW 5** - Answer questions on Blackboard.
 
