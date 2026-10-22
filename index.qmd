@@ -211,8 +211,6 @@ style="color: lightgreen"} - My User Name:
 
 **Estimates and Confidence**
 
-<br>
-
 - **Lecture 12 - Effect of Sample Size and Confidence level
   on Confidence Intervals**
 
@@ -252,8 +250,6 @@ style="color: lightgreen"} - My User Name:
     AM**](https://video.syr.edu/media/t/1_wg95bl4j/416621482){target="_blank"}
 
 **Data Distributions**
-
-<br>
 
 - **Lecture 10 - Central Limit Theorem / Saving R files and
   Creating Notes**
@@ -331,8 +327,6 @@ style="color: lightgreen"} - My User Name:
 <br>
 
 **Describing Data**
-
-<br>
 
 - **Lecture 5 - Visualizing Categorical and Quantitative
   Data**
@@ -467,7 +461,10 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
-- **Lecture 17 - Language of Hypothesis Testing/One Sample t-tests**
+**Hypotheses and Correlations**
+
+- **Lecture 17 - Language of Hypothesis Testing/One Sample
+  t-tests**
 
   - [**Slides**](https://01a1568d-f067-fb72-87b7-c8464ae70ed3.share.connect.posit.cloud/){target="_blank"}
 
@@ -479,14 +476,16 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
+      
+  - **Video Recording** - [**Lecture 17 - 2026-10-20 - 11:00
+    AM**](https://video.syr.edu/media/t/1_1jowdzum/416621482){target="_blank"}
 
 <br>
 
 **Estimates and Confidence Continued**
 
-<br>
-
-- **Lecture 16 - Proportions, Percentages and Confidence Intervals**
+- **Lecture 16 - Proportions, Percentages and Confidence
+  Intervals**
 
   - [**Slides**](https://01a13c13-adea-fa53-e2f4-771ddd4fe8ba.share.connect.posit.cloud/){target="_blank"}
 
@@ -501,7 +500,8 @@ style="color: lightgreen"} - My User Name:
     - Your saved file with your work will be in your
       account.
 
-  - **Video Recording** - [**Lecture 16 - 2026-10-15 - 11:00 AM**](https://video.syr.edu/media/t/1_j8jhj4yh/416621482){target="_blank"}
+  - **Video Recording** - [**Lecture 16 - 2026-10-15 - 11:00
+    AM**](https://video.syr.edu/media/t/1_j8jhj4yh/416621482){target="_blank"}
 
 # Homework Assignments
 
@@ -541,8 +541,8 @@ Cloud**](https://posit.cloud/content/9243762){target="_blank"}
     once you click the link for assignments 6-10 at the top
     of this page..
 
-- [**HW 6 Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_uolm433j/){target="_blank"}
-
+- [**HW 6 Demo Video
+  Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_uolm433j/){target="_blank"}
 
 <br>
 
