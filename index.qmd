@@ -463,6 +463,22 @@ style="color: lightgreen"} - My User Name:
 
 **Hypotheses and Correlations**
 
+- **Lecture 19 - Two Sample t-Tests and Confidence
+  Intervals**
+
+  - [**Slides**](https://01a179dd-02bd-b165-dc29-7464d1213799.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a179ed-0350-2768-9882-41f246d48552.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1Ra-ivkv6cN8UlZLvQCpKjzEDGzn0c9tD/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 - **Lecture 17 - Language of Hypothesis Testing/One Sample
   t-tests**
 
@@ -476,7 +492,7 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
+
   - **Video Recording** - [**Lecture 17 - 2026-10-20 - 11:00
     AM**](https://video.syr.edu/media/t/1_1jowdzum/416621482){target="_blank"}
 
