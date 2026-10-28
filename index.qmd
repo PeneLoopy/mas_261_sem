@@ -463,6 +463,22 @@ style="color: lightgreen"} - My User Name:
 
 **Hypotheses and Correlations**
 
+<br>
+
+- **Lecture 20 - Contingency Tables and Two Sample Tests of Proportions**
+
+  - [**Slides**](https://01a18452-8f7e-7489-3138-a1867fea7a72.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a184a0-04c0-5248-c340-0a27148fe099.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1CvWpRPqul2sx2PI121_ryCa0P_cV8jRc/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your account.
+
+<br>
+
 - **Lecture 19 - Two Sample t-Tests and Confidence
   Intervals**
 
@@ -476,6 +492,8 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
+      
+  - **Video Recording** - [**Lecture 19 - 2026-10-27 - 11:00 AM**](https://video.syr.edu/media/t/1_8p619v5l/416621482){target="_blank"}
 
 <br>
 
