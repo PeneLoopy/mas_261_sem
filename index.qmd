@@ -463,8 +463,21 @@ style="color: lightgreen"} - My User Name:
 
 **Hypotheses and Correlations**
 
-<br>
+- **Lecture 21 - Introduction to Correlation and Covariance**
 
+  - [**Slides**](https://01a19f27-9f0c-1976-8135-c35cd060f829.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a19f36-bb62-e3bb-3f7d-70aac35fb654.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1-IfsrZvPQ9vAZsGdJWSzhQaMbGVdfBwC/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+      
+<br>
+ 
 - **Lecture 20 - Contingency Tables and Two Sample Tests of Proportions**
 
   - [**Slides**](https://01a18452-8f7e-7489-3138-a1867fea7a72.share.connect.posit.cloud/){target="_blank"}
@@ -475,7 +488,10 @@ style="color: lightgreen"} - My User Name:
 
   - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
-    - Your saved file with your work will be in your account.
+    - Your saved file with your work will be in your
+      account.
+      
+  - [**VIDEO - Lecture 20 - 2026-10-29 - 11:00 AM**](https://video.syr.edu/media/t/1_gdsdmd4s/416621482){target="_blank"}
 
 <br>
 
@@ -492,8 +508,9 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
-  - **Video Recording** - [**Lecture 19 - 2026-10-27 - 11:00 AM**](https://video.syr.edu/media/t/1_8p619v5l/416621482){target="_blank"}
+
+  - **Video Recording** - [**Lecture 19 - 2026-10-27 - 11:00
+    AM**](https://video.syr.edu/media/t/1_8p619v5l/416621482){target="_blank"}
 
 <br>
 
@@ -566,6 +583,18 @@ Cloud**](https://posit.cloud/content/9243762){target="_blank"}
 <br>
 
 ## Row
+
+**HW 7** - Answer questions on Blackboard.
+
+- [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+  - Your saved file with your work will be in your account
+    once you click the link for assignments 6-10 at the top
+    of this page..
+
+- [**HW 7 Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_myw14zfc/){target="_blank"}
+
+<br>
 
 **HW 6** - Answer questions on Blackboard.
 
