@@ -461,6 +461,21 @@ style="color: lightgreen"} - My User Name:
 
 <br>
 
+- **Lecture 23 - Introduction to Simple Linear Regression**
+
+  - [**Slides**](https://01a1c1db-8058-96de-d811-895ba1e587ed.share.connect.posit.cloud/){target="_blank"}
+
+  - [**Notes**](https://01a1c1f7-abfa-b9d3-4f46-6f1a5ab2b0dd.share.connect.posit.cloud/){target="_blank"}
+
+  - [**PDF**](https://drive.google.com/file/d/1fp9x0ZEQ495uAKAnycHhbD79vTzsF7Rn/view?usp=sharing){target="_blank"}
+
+  - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+    - Your saved file with your work will be in your
+      account.
+
+<br>
+
 - **Lecture 22 - Introduction to Portfolio Management**
 
   - [**Slides**](https://01a1a754-9598-147d-3764-c0b1c209111d.share.connect.posit.cloud/){target="_blank"}
@@ -468,12 +483,14 @@ style="color: lightgreen"} - My User Name:
   - [**Notes**](https://01a1a762-f937-c2fb-c216-7e4bb2a296f4.share.connect.posit.cloud/){target="_blank"}
 
   - [**PDF**](https://drive.google.com/file/d/1TcKKUctfiSqoYFPsUAu2d2tTNJK8CEW2/view?usp=sharing){target="_blank"}
-  
+
   - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
     - Your saved file with your work will be in your
       account.
-
+      
+  - [**VIDEO - Lecture 22 - 2026-11-05 - 11:00
+    AM**](https://video.syr.edu/media/t/1_ll90ctmu/416621482){target="_blank"}
 
 <br>
 
@@ -492,8 +509,9 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
-  - [**VIDEO - Lecture 21 - 2026-11-03 - 11:00 AM**](https://video.syr.edu/media/t/1_gc4lrkzh/416621482){target="_blank"}
+
+  - [**VIDEO - Lecture 21 - 2026-11-03 - 11:00
+    AM**](https://video.syr.edu/media/t/1_gc4lrkzh/416621482){target="_blank"}
 
 <br>
 
@@ -605,12 +623,24 @@ Cloud**](https://posit.cloud/content/9243762){target="_blank"}
 
 ## Row
 
+**HW 8** - Answer questions on Blackboard.
+
+- [**Posit Cloud**](https://posit.cloud/){target="_blank"}
+
+  - Your saved file with your work will be in your account
+    once you click the link for assignments 6-9 at the top
+    of this page..
+
+- [**HW 8 Demo Video Playlist**](https://video.syr.edu/playlist/dedicated/352723432/1_9x5lkesk/){target="_blank"}
+
+<br>
+
 **HW 7** - Answer questions on Blackboard.
 
 - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
   - Your saved file with your work will be in your account
-    once you click the link for assignments 6-10 at the top
+    once you click the link for assignments 6-9 at the top
     of this page..
 
 - [**HW 7 Demo Video
@@ -623,7 +653,7 @@ Cloud**](https://posit.cloud/content/9243762){target="_blank"}
 - [**Posit Cloud**](https://posit.cloud/){target="_blank"}
 
   - Your saved file with your work will be in your account
-    once you click the link for assignments 6-10 at the top
+    once you click the link for assignments 6-9 at the top
     of this page..
 
 - [**HW 6 Demo Video
