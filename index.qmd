@@ -597,11 +597,6 @@ style="color: lightgreen"} - My User Name:
 
 ## Row
 
-**The R Project for HW Assignments 6-9 will be posted on
-Tuesday, 10/20/26.**
-
-<br>
-
 [**Homework Assignments 2-5 - R Project on Posit
 Cloud**](https://posit.cloud/content/8556337){target="_blank"}
 
