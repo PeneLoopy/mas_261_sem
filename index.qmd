@@ -473,7 +473,7 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
+
 <br>
 
 - **Lecture 23 - Introduction to Simple Linear Regression**
@@ -488,8 +488,8 @@ style="color: lightgreen"} - My User Name:
 
     - Your saved file with your work will be in your
       account.
-      
-  - [**VIDEO - Lecture 23 - 2026-11-05 - 11:00 AM**](https://video.syr.edu/media/t/1_pjn58ckg/416621482){target="_blank"}
+
+  - [**VIDEO - Lecture 23 - 2026-11-05 - 11:00 AM**](https://video.syr.edu/media/t/1_m6zkmv8q/416621482){target="_blank"}
 
 <br>
 
